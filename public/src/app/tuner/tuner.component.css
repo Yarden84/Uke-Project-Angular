@@ -1,0 +1,78 @@
+
+@font-face {
+	font-family: Nehama;
+	src: url("../../assets/fonts/nehama/Nehama.ttf")
+}
+
+.btn.btn-success{
+	border-radius: 25px;
+	height: 30px;
+	width: 30px;
+	border: 1px solid black;
+	outline: none !important;
+}
+
+.btn.btn-success p{
+	position: relative;
+	bottom: 2px;
+	right: 3px;
+}
+
+
+
+
+
+/*---------------------------------------*/
+
+#headline{
+	font-family: 'Nehama', serif;
+	background-color: rgb(148,84,46);
+	color: white;
+	padding-top: 10px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+	text-align: right;
+	
+}
+
+#ukeNeck{
+
+	margin-top: 50px;
+	margin-left: 30px;
+	
+}
+
+
+
+#bottomLine{
+	margin-top: 50px;
+	background-color: rgb(148,84,46);
+	height: 90px;
+}
+
+
+#btnG{
+	position: relative;
+	bottom: 116px;
+	left: 235px;
+}
+
+
+#btnC{
+	position: relative;
+	bottom: 115px;
+	left: 102px;
+}
+
+#btnE{
+	position: relative;
+	bottom: 192px;
+	left: 72px;
+}
+
+#btnA{
+	position: relative;
+	bottom: 192px;
+	left: 145px;
+}
+

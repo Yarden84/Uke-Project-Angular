@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Nehama;
+    src: url("../../assets/fonts/nehama/Nehama.ttf")
+}
+
+/*----------------------------------------------------*/
+
+#about{
+    padding: 50px 0;
+}
+
+#about h1, #about h3{
+    font-family: 'Nehama', serif;
+}
+
+#about p{
+    padding-right: 20px;
+    width: 1000px;
+    text-align: justify;
+}
+
+a{
+    color: inherit;
+}

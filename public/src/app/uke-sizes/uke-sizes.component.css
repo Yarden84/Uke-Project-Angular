@@ -1,0 +1,163 @@
+@font-face {
+	font-family: Nehama;
+	src: url("../../assets/fonts/nehama/Nehama.ttf")
+}
+
+@font-face {
+	font-family: Drugulin CLM;
+	src: url("../../assets/fonts/drugulin/DrugulinCLM-Bold.ttf")
+}
+
+#baritone{
+	position: relative;
+	padding-left: 80px;
+}
+
+#baritone h1{
+	font-family: 'Drugulin CLM', serif;
+	position: relative;
+	top: 25px;
+	left: 65px;
+}
+
+#baritoneImg{
+	position: relative;
+	margin-left: 30px;
+	top: 20px;
+	cursor: pointer;
+}
+
+#baritoneData{
+	font-family: 'Nehama', serif;
+	font-size: 16px;
+	position: absolute;
+	right: 65px;
+	top: 95px;
+	/* display: none; */
+}
+
+#baritoneData ul li ul li{
+	position: relative;
+	left: 30px;
+	width: 120px;
+}
+
+.baritoneHover{
+	opacity: 0.7;
+}
+
+/*--------------------------------------*/
+
+#tenor{
+	position: relative;
+}
+
+#tenor h1{
+	font-family: 'Drugulin CLM', serif;
+	position: relative;
+	top: 62px;
+	left: 125px;
+}
+
+#tenorImg{
+	position: relative;
+	padding-left: 80px;
+	top: 55px;
+	cursor: pointer;
+}
+
+#tenorData{
+	font-family: 'Nehama', serif;
+	font-size: 16px;
+	position: absolute;
+	right: 60px;
+	top: 130px;
+}
+
+#tenorData ul li ul li{
+	position: relative;
+	left: 30px;
+	width: 120px;
+}
+
+.tenorHover{
+	opacity: 0.7;
+}
+
+/*--------------------------------------*/
+
+#concert{
+	position: relative;
+}
+
+#concert h1{
+	font-family: 'Drugulin CLM', serif;
+	position: relative;
+	top: 85px;
+	left: 100px;
+}
+
+#concertImg{
+	position: relative;
+	padding-left: 80px;
+	top: 84px;
+	cursor: pointer;
+}
+
+#concertData{
+	font-family: 'Nehama', serif;
+	font-size: 16px;
+	position: absolute;
+	right: 40px;
+	top: 154px;
+}
+
+#concertData ul li ul li{
+	position: relative;
+	left: 30px;
+	width: 120px;
+}
+
+.concertHover{
+	opacity: 0.7;
+}
+
+/*--------------------------------------*/
+
+#soprano{
+	position: relative;
+}
+
+#soprano h1{
+	font-family: 'Drugulin CLM', serif;
+	position: relative;
+	top: 128px;
+	left: 105px;
+}
+
+#sopranoImg{
+	position: relative;
+	padding-left: 80px;
+	top: 126px;
+	cursor: pointer;
+}
+
+#sopranoData{
+	font-family: 'Nehama', serif;
+	font-size: 16px;
+	position: absolute;
+	right: 30px;
+	top: 200px;
+}
+
+#sopranoData ul li ul li{
+	position: relative;
+	left: 30px;
+	width: 120px;
+}
+
+.sopranoHover{
+	opacity: 0.7;
+}
+
+

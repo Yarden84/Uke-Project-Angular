@@ -1,0 +1,159 @@
+
+#img-1{
+	cursor: pointer;
+	margin-top: 20px;
+	position: relative;
+	margin-bottom: -100px;
+}
+
+.img1H{
+	opacity: 0.6;
+}
+
+#read1{
+	cursor: pointer;
+}
+
+#textImg1{
+	cursor: pointer;
+	font-family: 'Drugulin CLM', serif;
+	position: relative;
+	text-align: center;
+	bottom: 115px;
+	font-size: 75px;	
+	
+	pointer-events: none;
+}
+
+#p-1{
+	margin-left: 10px;
+	width: 1000px;
+}
+
+#p-1-continue{
+	position: relative;
+	width: 1000px;
+	right: 60px;
+	bottom: 200px;
+}
+/*-------------------------------------------------------------------------*/
+
+#img-2{
+	cursor: pointer;
+	margin-top: 20px;
+	position: relative;
+	margin-bottom: -100px;
+}
+
+.img2H{
+	opacity: 0.6;
+}
+
+#read2{
+	cursor: pointer;
+}
+
+#textImg2{
+	cursor: pointer;
+	font-family: 'Drugulin CLM', serif;
+	position: relative;
+	text-align: center;
+	bottom: 115px;
+	font-size: 72px;	
+
+	pointer-events: none;
+}
+
+
+#p-2{
+	margin-left: 10px;
+	width: 1000px;
+}
+
+#p-2-continue{
+	position: relative;
+	width: 1000px;
+	right: 60px;
+	bottom: 200px;
+}
+
+/*-------------------------------------------------------------------------*/
+
+#img-3{
+	cursor: pointer;
+	margin-top: 20px;
+	position: relative;
+	margin-bottom: -100px;
+}
+
+.img3H{
+	opacity: 0.6;
+}
+
+#read3{
+	cursor: pointer;
+}
+
+#textImg3{
+	cursor: pointer;
+	font-family: 'Drugulin CLM', serif;
+	position: relative;
+	text-align: center;
+	bottom: 115px;
+	font-size: 75px;	
+
+	pointer-events: none;
+}
+
+
+#p-3{
+	margin-left: 10px;
+	width: 1000px;
+}
+
+#p-3-continue{
+	position: relative;
+	width: 1000px;
+	right: 60px;
+	bottom: 200px;
+}
+
+/*-------------------------------------------------------------------------*/
+
+#img-4{
+	cursor: pointer;
+	margin-top: 20px;
+	position: relative;
+	margin-bottom: -100px;
+}
+
+.img4H{
+	opacity: 0.6;
+}
+
+#read4{
+	cursor: pointer;
+}
+
+#textImg4{
+	cursor: pointer;
+	font-family: 'Drugulin CLM', serif;
+	position: relative;
+	text-align: center;
+	bottom: 115px;
+	font-size: 75px;	
+
+	pointer-events: none;
+}
+
+#p-4{
+	margin-left: 10px;
+	width: 1000px;
+}
+
+#p-4-continue{
+	position: relative;
+	width: 1000px;
+	right: 60px;
+	bottom: 200px;
+}

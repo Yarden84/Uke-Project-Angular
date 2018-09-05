@@ -1,0 +1,218 @@
+<div id="BG" dir="rtl">
+  <div class="container-fluid"  id="cuatroBG">
+      <h1 class="text-center" id="cuatroH"><strong>קוואטרו ונצואליאני</strong></h1>
+
+      <br>
+
+      <div class="row">
+
+          <div id="details1">
+
+              <div  class="col-md-9" id="about1" *ngIf="about[0]">
+                  <p><strong>זוכרים את הפרק בסיינפלד בו אליין פוגשת חברים חדשים, דומים מאוד לג'רי, ג'ורג' וקריימר מבחינה חיצונית אבל שונים מהם לחלוטין באופי? ובכן זה קצת מזכיר את הדמיון בין הקואטרו הונצואליאני ליוקוללה. חיצונית הכלים דומים למדי זה לזה אם כי הקואטרו מעט ארוך יותר ודומה יותר ספציפית ליוקוללה בריטון. אך ישנו הבדל אחד משמעותי - המיתרים של הקוואטרו הם מעין תמונת מראה הפוכה למיתרי היוקוללה. בעוד שביוקוללה שני המיתרים החיצוניים הם הגבוהים ביותר, בקוואטרו שני מיתרים אלו הם מיתרי הבס, מה שיוצר חוויית נגינה מוזרה ביותר עבור מי שרגיל לנגן ביוקוללה.</strong></p>
+                  <p><strong>על כל פנים מדובר בכלי מגניב ביותר שמפיק צליל מעניין שדומה מאוד לצליל של היוקוללה אבל עם מעט יותר עומק.</strong></p>
+              </div>
+            
+              <div  class="col-md-9" id="pics1" *ngIf="pics[0]">
+                <div class="row">
+                    <div class="col-xs-3" *ngFor="let pic1Set of pic1Sets; index as i">
+                        <img src="{{pic1Set}}" alt="no image {{i+1}}">
+                    </div>
+                </div>
+            </div>
+
+              <div  class="col-md-9" id="vid1" *ngIf="vid[0]">
+                  <div class="row">
+                      <div class="col-xs-6">
+                          <iframe width="400" height="215" src="https://www.youtube.com/embed/D0Vifmv1RAU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                      </div>
+                      <div class="col-xs-6">
+                          <iframe width="400" height="215" src="https://www.youtube.com/embed/NZ123ysut9s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-md-3" id="mainImg1">
+                  <div class="img-circle" id="whiteCircle1">
+                      <img id="cuatro" src="../../assets/img/cuatro.jpg" alt="no image">
+                  </div>
+              </div>
+
+          </div>
+
+          <div  class="col-md-9" id="buttons1">
+              <button class="btn btn-warning" id="aboutBtn1" (click)="showAbout(0)">על הכלי</button>
+              <button class="btn btn-primary" id="picBtn1" (click)="showPics(0)">תמונות</button>
+              <button class="btn btn-success" id="vidBtn1" (click)="showVid(0)">סרטונים</button>
+          </div>
+
+      </div>
+
+  </div>
+
+  <div class="divider1"></div>
+
+  <div class="divider2"></div>
+
+  <div class="container-fluid"  id="cavaBG">
+  <h1 class="text-center" id="cavaH"><strong>קווקיניו</strong></h1>
+
+  <br>
+
+  <div class="row">
+
+      <div id="details2">
+          <div  class="col-md-9" id="about2" *ngIf="about[1]">
+              <p><strong>מקובל לחשוב שהיוקוללה הוא כלי שמוצאו בהוואי. זה נכון באופן חלקי בלבד. הכלי הומצא בהוואי על ידי שלושה מהגרים פורטוגלים ואומץ בחום על-ידי האוכלוסייה המקומית. לפיכך, ההשראה להמצאת היוקוללה הגיעה מכלי נגינה שמוצאם מפורטוגל וממסורת המוזיקה הפורטוגזית. אחד מהכלים הללו השייכים לעולם זה הוא הקווקיניו. הקווקיניו הוא כלי מפתח במוזיקה הפורטוגזית בפורטוגל ובברזיל.</strong></p>
+              <p><strong>הקווקיניו דומה מאוד ליוקוללה בצורתו החיצונית ובצלילים שהוא מפיק, אם כי צלילים אלו הם בעלי אופי מתכתי יותר.</strong></p>
+          </div>
+
+          <div  class="col-md-9" id="pics2" *ngIf="pics[1]">
+              <div class="row">
+                <div class="col-xs-3" *ngFor="let pic2Set of pic2Sets; index as i">
+                    <img src="{{pic2Set}}" alt="no image {{i+1}}">
+                </div>
+              </div>
+          </div>
+
+          <div  class="col-md-9" id="vid2" *ngIf="vid[1]">
+              <div class="row">
+                  <div class="col-xs-6">
+                      <iframe width="400" height="215" src="https://www.youtube.com/embed/cILU9TpQwxA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                  </div>
+                  <div class="col-xs-6">
+                      <iframe width="400" height="215" src="https://www.youtube.com/embed/ABpmMCIxdBU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                  </div>
+              </div>
+          </div>
+
+
+          <div class="col-md-3" id="mainImg2">
+          <div class="img-circle" id="whiteCircle2">
+          <img id="cava" src="../../assets/img/cava.jpg" alt="no image">
+          </div>
+      </div>
+      </div>
+
+      <div  class="col-md-9" id="buttons2">
+          <button class="btn btn-warning" id="aboutBtn2" (click)="showAbout(1)">על הכלי</button>
+          <button class="btn btn-primary" id="picBtn2" (click)="showPics(1)">תמונות</button>
+          <button class="btn btn-success" id="vidBtn2" (click)="showVid(1)">סרטונים</button>
+      </div>
+
+  </div>
+
+</div>
+
+  <div class="divider3"></div>
+
+  <div class="divider4"></div>
+
+  <div class="container-fluid"  id="charangoBG">
+      <h1 class="text-center" id="charangoH"><strong>צ'רנגו</strong></h1>
+
+      <br>
+
+      <div class="row">
+
+          <div id="details3">
+
+              <div  class="col-md-9" id="about3" *ngIf="about[2]">
+                  <p><strong>הצ'רנגו נוצר לראשונה כאשר ארמדילו אלמוני החליט להתחפש בפורים ליוקוללה. התוצאה - כלי המזכיר בגודלו ובצורתו יוקוללה סופרן שמחלקו האחורי מבצבץ שריונו של הארמדילו.</strong></p>
+                  <p><strong>הסיפור הזה הוא כמובן שקר וכזב, אך הצ'רנגו המסורתי לרוב אכן היו בנויים משיריון של ארמדילו. היום נראה שבנייה מסוג זה היא פחות מקובלת. את הארמדילו החליפה חתיכת עץ שגולפה למעין קערה הדומה בצורתה לשיריון הארמדילו. לצ'רנגו יש חמישה זוגות מיתרים והוא מפיק צליל עשיר ומעניין.</strong></p>
+              </div>
+
+              <div  class="col-md-9" id="pics3" *ngIf="pics[2]">
+                  <div class="row">
+                    <div class="col-xs-3" *ngFor="let pic3Set of pic3Sets; index as i">
+                        <img src="{{pic3Set}}" alt="no image {{i+1}}">
+                    </div>
+                  </div>
+              </div>
+
+              <div  class="col-md-9" id="vid3" *ngIf="vid[2]">
+                  <div class="row">
+                      <div class="col-xs-6">
+                          <iframe width="400" height="215" src="https://www.youtube.com/embed/86XBnkXk3Po" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                      </div>
+                      <div class="col-xs-6">
+                          <iframe width="400" height="215" src="https://www.youtube.com/embed/PuBNVdsymQA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                      </div>
+                  </div>
+              </div>
+
+
+              <div class="col-md-3" id="mainImg3">
+                  <div class="img-circle" id="whiteCircle3">
+                      <img class="img-circle" id="charango" src="../../assets/img/charango.jpg" alt="no image">
+                  </div>
+              </div>
+
+          </div>
+
+          <div  class="col-md-9" id="buttons3">
+              <button class="btn btn-warning" id="aboutBtn3" (click)="showAbout(2)">על הכלי</button>
+              <button class="btn btn-primary" id="picBtn3" (click)="showPics(2)">תמונות</button>
+              <button class="btn btn-success" id="vidBtn3" (click)="showVid(2)">סרטונים</button>
+          </div>
+
+      </div>
+
+  </div>
+
+  <div class="divider1"></div>
+
+  <div class="divider2"></div>
+
+  <div class="container-fluid"  id="timpleBG">
+      <h1 class="text-center" id="timpleH"><strong>טימפלה</strong></h1>
+
+      <br>
+
+      <div class="row">
+
+          <div id="details4">
+
+              <div  class="col-md-9" id="about4" *ngIf="about[3]">
+                  <p><strong>הטימפלה הוא כלי מיתר שמקורו באיים הקנריים. הטימפלה מזכיר מעט בצורתו ובצליליו את הצ'רנגו אך ללא האפקט שמפיקים המיתרים הכפולים של הצ'רנגו.</strong></p>
+                  <p><strong>לטימפלה חמישה מיתרים. פאן פאקט - לפי ויקיפדיה נגנים רבים מוותרים על המיתר החמישי על מנת לנגן בכלי כמו ביוקוללה (אז למה הם לא פשוט קונים יוקוללה?).</strong></p>
+              </div>
+
+              <div  class="col-md-9" id="pics4" *ngIf="pics[3]">
+                  <div class="row">
+                    <div class="col-xs-3" *ngFor="let pic4Set of pic4Sets; index as i">
+                        <img src="{{pic4Set}}" alt="no image {{i+1}}">
+                    </div>
+                  </div>
+              </div>
+
+              <div  class="col-md-9" id="vid4" *ngIf="vid[3]">
+              <div class="row">
+                  <div class="col-xs-6">
+                      <iframe width="400" height="215" src="https://www.youtube.com/embed/jNipYm8yJQ8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                  </div>
+                  <div class="col-xs-6">
+                      <iframe width="400" height="215" src="https://www.youtube.com/embed/bhnSehFCbco" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                  </div>
+              </div>
+          </div>
+
+              <div class="col-md-3" id="mainImg4">
+                  <div class="img-circle" id="whiteCircle4">
+                      <img class="img-circle" id="timple" src="../../assets/img/timple.jpg" alt="no image">
+                  </div>
+              </div>
+
+          </div>
+
+          <div  class="col-md-9" id="buttons4">
+              <button class="btn btn-warning" id="aboutBtn4" (click)="showAbout(3)">על הכלי</button>
+              <button class="btn btn-primary" id="picBtn4" (click)="showPics(3)">תמונות</button>
+              <button class="btn btn-success" id="vidBtn4" (click)="showVid(3)">סרטונים</button>
+          </div>
+
+      </div>
+
+  </div>
+
+</div>
