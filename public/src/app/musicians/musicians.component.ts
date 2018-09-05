@@ -14,7 +14,7 @@ import { trigger, state, style, transition, animate, keyframes } from '@angular/
         transform: 'scale(1)',
       })),
       state('small', style({
-        transform: 'scale(0.5) translateX(1000px)',
+        transform: 'scale(0.5) translateX(900px)',
       })),  
       
       transition('large => small', animate('300ms')),
@@ -25,7 +25,7 @@ import { trigger, state, style, transition, animate, keyframes } from '@angular/
         transform: 'scale(1)',
       })),
       state('small2', style({
-        transform: 'scale(0.5) translateX(1000px) translateY(-200px)',
+        transform: 'scale(0.5) translateX(900px) translateY(-200px)',
       })),  
       
       transition('large2 => small2', animate('400ms')),
@@ -38,7 +38,7 @@ import { trigger, state, style, transition, animate, keyframes } from '@angular/
       })),
       state('shown', style({
         opacity: 1,
-        transform: 'translateX(-70px) translateY(-200px)',
+        transform: 'translateY(-200px)',
       })),  
       
       transition('invisible => shown', animate('400ms')),

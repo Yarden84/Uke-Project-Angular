@@ -1,3 +1,8 @@
+*{
+	overflow-x: hidden;
+}
+
+/*-------------------------------------------------------------------------*/
 
 #img-1{
 	cursor: pointer;
@@ -18,23 +23,24 @@
 	cursor: pointer;
 	font-family: 'Drugulin CLM', serif;
 	position: relative;
-	text-align: center;
+	text-align: center;	
 	bottom: 115px;
-	font-size: 75px;	
-	
+	font-size: 75px;		
 	pointer-events: none;
 }
 
 #p-1{
-	margin-left: 10px;
-	width: 1000px;
+	margin-left: 20px;
+	width: 800px;
+	text-align: justify;
 }
 
 #p-1-continue{
 	position: relative;
-	width: 1000px;
-	right: 60px;
+	width: 800px;
+	left: 20px;
 	bottom: 200px;
+	text-align: justify;
 }
 /*-------------------------------------------------------------------------*/
 
@@ -66,15 +72,17 @@
 
 
 #p-2{
-	margin-left: 10px;
-	width: 1000px;
+	margin-left: 20px;
+	width: 800px;
+	text-align: justify;
 }
 
 #p-2-continue{
 	position: relative;
-	width: 1000px;
-	right: 60px;
+	width: 800px;
+	left: 20px;
 	bottom: 200px;
+	text-align: justify;
 }
 
 /*-------------------------------------------------------------------------*/
@@ -107,15 +115,17 @@
 
 
 #p-3{
-	margin-left: 10px;
-	width: 1000px;
+	margin-left: 20px;
+	width: 800px;
+	text-align: justify;
 }
 
 #p-3-continue{
 	position: relative;
-	width: 1000px;
-	right: 60px;
+	width: 800px;
+	left: 20px;
 	bottom: 200px;
+	text-align: justify;
 }
 
 /*-------------------------------------------------------------------------*/
@@ -147,13 +157,15 @@
 }
 
 #p-4{
-	margin-left: 10px;
-	width: 1000px;
+	margin-left: 20px;
+	width: 800px;
+	text-align: justify;
 }
 
 #p-4-continue{
 	position: relative;
-	width: 1000px;
-	right: 60px;
+	width: 800px;
+	left: 20px;
 	bottom: 200px;
+	text-align: justify;
 }
