@@ -64,6 +64,10 @@
 	padding-right: 60px;
 }
 
+.event li a{
+	cursor: pointer;
+}
+
 
 
 

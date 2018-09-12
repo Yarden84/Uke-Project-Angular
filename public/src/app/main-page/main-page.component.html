@@ -50,27 +50,27 @@
       <li>
         <p class="date"> -  28.5.2018</p>
         <ul align = "right" class="event">
-          <li><a href="view/Uke-Relatives.html">סבא קוואטרו ודוד צ'רנגו</a></li>
-          <li><a href="view/tuner.html">טיונר חדש לכיוון סטנדרטי</a></li>
+          <li><a routerLink = "/ukerelatives">סבא קוואטרו ודוד צ'רנגו</a></li>
+          <li><a routerLink = "/tuner">טיונר חדש לכיוון סטנדרטי</a></li>
         </ul>	
       </li>
       <li>
         <p class="date"> -  2.6.2018</p>
         <ul align = "right" class="event">
-          <li><a href="view/Chord-Finder.html" dir="rtl">כעת אפשר גם לשמוע את האקורדים במנוע חיפוש אקורדים!</a></li>
+          <li><a routerLink = "/chordfinder" dir="rtl">כעת אפשר גם לשמוע את האקורדים במנוע חיפוש אקורדים!</a></li>
         </ul>
       </li>
       <li>
         <p class="date"> -  5.6.2018</p>
         <ul align = "right" class="event">
-          <li><a href="view/Uke-Sizes.html">גדלי יוקוללה - יתרונות וחסרונות</a></li>
+          <li><a routerLink = "/ukesizes">גדלי יוקוללה - יתרונות וחסרונות</a></li>
         </ul>
       </li>
       <li>
         <p class="date"> -  12.6.2018</p>
         <ul align = "right" class="event">
-          <li><a href="view/musicians.html#img-4"  dir="rtl" id="jhLink">מי אתה ג'יימס היל? (ספוילר: נגן יוקוללה)</a></li>
-          <li><a href="view/Uke-Types.html#harpUkeH"  dir="rtl">מה קורה כשיוקוללה ונבל עושים ילד?</a></li>
+          <li><a (click)="JHLink('/musicians')" dir="rtl">מי אתה ג'יימס היל? (ספוילר: נגן יוקוללה)</a></li>
+          <li><a (click)="ukeHarpLink('/uketypes')" dir="rtl">מה קורה כשיוקוללה ונבל עושים ילד?</a></li>
         </ul>
       </li>
 
@@ -94,7 +94,7 @@
       </div>
 
       <div id="galleryLink" dir="rtl">
-        <h4>אוהבים לבהות ביוקולליים? איזה מוזרים אתם! מוזמנים להיכנס <a href="view/gallery.html"><u>לגלריה</u>.</a></h4>
+        <h4>אוהבים לבהות ביוקולליים? איזה מוזרים אתם! מוזמנים להיכנס <a routerLink = "/gallery"><u>לגלריה</u>.</a></h4>
       </div>
 
     </div>

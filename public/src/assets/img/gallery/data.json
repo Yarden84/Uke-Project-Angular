@@ -1,0 +1,1524 @@
+[
+    {
+      "preview_xxs": {
+        "path": "../../assets/img/gallery/uke1.jpg",
+        "width": 600,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "../../assets/img/gallery/uke1.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "../../assets/img/gallery/uke1.jpg",
+        "width": 1440,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "../../assets/img/gallery/uke1.jpg",
+        "width": 2133,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "../../assets/img/gallery/uke1.jpg",
+        "width": 2880,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "../../assets/img/gallery/uke1.jpg",
+        "width": 3840,
+        "height": 2880
+      },
+      "raw": {
+        "path": "../../assets/img/gallery/uke2.jpg",
+        "width": 1400,
+        "height": 1050
+      },
+      "dominantColor": "#a6a6a6"
+    },
+    {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke2.jpg",
+          "width": 300,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke2.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke2.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke2.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke2.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke2.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke2.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke3.jpg",
+          "width": 600,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke3.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke3.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke3.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke3.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke3.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke3.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke4.jpg",
+          "width": 600,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke4.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke4.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke4.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke4.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke4.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke4.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke5.jpg",
+          "width": 350,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke5.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke5.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke5.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke5.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke5.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke5.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke6.jpg",
+          "width": 450,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke6.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke6.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke6.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke6.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke6.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke6.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke7.jpg",
+          "width": 300,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke7.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke7.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke7.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke7.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke7.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke7.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke8.jpg",
+          "width": 350,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke8.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke8.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke8.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke8.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke8.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke8.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke9.jpg",
+          "width": 550,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke9.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke9.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke9.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke9.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke9.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke9.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke10.jpg",
+          "width": 720,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke10.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke10.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke10.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke10.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke10.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke10.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke11.jpg",
+          "width": 650,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke11.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke11.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke11.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke11.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke11.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke11.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke12.jpg",
+          "width": 550,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke12.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke12.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke12.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke12.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke12.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke12.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke13.jpg",
+          "width": 550,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke13.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke13.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke13.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke13.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke13.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke13.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke14.jpg",
+          "width": 450,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke14.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke14.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke14.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke14.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke14.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke14.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke15.jpg",
+          "width": 600,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke15.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke15.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke15.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke15.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke15.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke15.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke16.jpg",
+          "width": 600,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke16.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke16.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke16.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke16.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke16.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke16.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke17.jpg",
+          "width": 550,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke17.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke17.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke17.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke17.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke17.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke17.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke18.jpg",
+          "width": 650,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke18.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke18.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke18.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke18.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke18.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke18.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke19.jpg",
+          "width": 450,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke19.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke19.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke19.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke19.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke19.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke19.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke20.jpg",
+          "width": 300,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke20.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke20.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke20.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke20.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke20.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke20.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke21.jpg",
+          "width": 350,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke21.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke21.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke21.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke21.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke21.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke21.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke22.jpg",
+          "width": 280,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke22.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke22.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke22.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke22.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke22.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke22.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke23.jpg",
+          "width": 335,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke23.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke23.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke23.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke23.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke23.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke23.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke24.jpg",
+          "width": 320,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke24.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke24.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke24.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke24.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke24.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke24.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke25.jpg",
+          "width": 650,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke25.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke25.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke25.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke25.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke25.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke25.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke26.jpg",
+          "width": 550,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke26.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke26.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke26.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke26.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke26.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke26.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke27.jpg",
+          "width": 550,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke27.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke27.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke27.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke27.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke27.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke27.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke28.jpg",
+          "width": 550,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke28.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke28.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke28.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke28.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke28.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke28.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke29.jpg",
+          "width": 550,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke29.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke29.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke29.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke29.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke29.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke29.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke30.jpg",
+          "width": 380,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke30.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke30.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke30.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke30.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke30.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke30.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke31.jpg",
+          "width": 220,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke31.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke31.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke31.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke31.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke31.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke31.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke32.jpg",
+          "width": 270,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke32.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke32.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke32.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke32.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke32.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke32.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke33.jpg",
+          "width": 650,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke33.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke33.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke33.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke33.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke33.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke33.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke34.jpg",
+          "width": 650,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke34.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke34.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke34.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke34.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke34.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke34.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke35.jpg",
+          "width": 680,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke35.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke35.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke35.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke35.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke35.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke35.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke36.jpg",
+          "width": 500,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke36.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke36.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke36.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke36.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke36.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke36.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke37.jpg",
+          "width": 550,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke37.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke37.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke37.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke37.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke37.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke37.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke38.jpg",
+          "width": 650,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke38.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke38.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke38.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke38.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke38.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke38.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke39.jpg",
+          "width": 450,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke39.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke39.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke39.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke39.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke39.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke39.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      },
+      {
+        "preview_xxs": {
+          "path": "../../assets/img/gallery/uke40.jpg",
+          "width": 550,
+          "height": 375
+        },
+        "preview_xs": {
+          "path": "../../assets/img/gallery/uke40.jpg",
+          "width": 1024,
+          "height": 768
+        },
+        "preview_s": {
+          "path": "../../assets/img/gallery/uke40.jpg",
+          "width": 1440,
+          "height": 1080
+        },
+        "preview_m": {
+          "path": "../../assets/img/gallery/uke40.jpg",
+          "width": 2133,
+          "height": 1600
+        },
+        "preview_l": {
+          "path": "../../assets/img/gallery/uke40.jpg",
+          "width": 2880,
+          "height": 2160
+        },
+        "preview_xl": {
+          "path": "../../assets/img/gallery/uke40.jpg",
+          "width": 3840,
+          "height": 2880
+        },
+        "raw": {
+          "path": "../../assets/img/gallery/uke40.jpg",
+          "width": 1400,
+          "height": 1050
+        },
+        "dominantColor": "#a6a6a6"
+      }
+      
+    
+  ]

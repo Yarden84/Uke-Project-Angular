@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 import { trigger, state, style, transition, animate, keyframes } from '@angular/animations';
 
+import { LocalStorageService } from 'angular-2-local-storage';
+
 
 
 @Component({
@@ -49,7 +51,6 @@ import { trigger, state, style, transition, animate, keyframes } from '@angular/
 
 export class MusiciansComponent implements OnInit {
 
-  
   state = [['large', 'large2', 'invisible'], ['large', 'large2', 'invisible'], ['large', 'large2', 'invisible'], ['large', 'large2', 'invisible']];
   
   readMore1 = true;
@@ -65,12 +66,28 @@ export class MusiciansComponent implements OnInit {
   imgHover = [true, true, true, true];
 
   imgClicked = [false, false, false, false];
+  
+  constructor(private localStorageService: LocalStorageService) {
 
-  constructor() {}
-
-  ngOnInit() {
   }
 
+
+  ngOnInit() {
+    var jhReset = (localStorage.getItem('jhReset') === 'true');
+
+    if (jhReset){
+      localStorage.setItem('jhLink', 'false');
+    }
+
+    var jhLink = (localStorage.getItem('jhLink') === 'true');
+
+    if (jhLink){
+      document.getElementById('img4').scrollIntoView();
+      setTimeout(() => this.adjust(3), 100);
+      localStorage.setItem('jhReset', 'true');
+    }
+  }
+ 
   adjust(a){
       let x = +a;
       this.state[x][0] = (this.state[x][0] === 'large' ? 'small': 'small');

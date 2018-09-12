@@ -84,7 +84,18 @@ export class UkeTypesComponent implements OnInit {
   }
 
   ngOnInit() {
-    
+    var ukeHarpReset = (localStorage.getItem('ukeHarpReset') === 'true');
+
+    if (ukeHarpReset){
+      localStorage.setItem('ukeHarpLink', 'false');
+    }
+
+    var ukeHarpLink = (localStorage.getItem('ukeHarpLink') === 'true');
+
+    if (ukeHarpLink){
+      document.getElementById('vidBtn1').scrollIntoView();
+      localStorage.setItem('ukeHarpReset', 'true');
+    }
   }
 
   showAbout(a){
