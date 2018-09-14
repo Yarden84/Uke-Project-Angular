@@ -51,6 +51,7 @@ import { LocalStorageService } from 'angular-2-local-storage';
 
 export class MusiciansComponent implements OnInit {
 
+  isOpen: any;
   state: Array <any>;
   
   readMore1: Boolean;
