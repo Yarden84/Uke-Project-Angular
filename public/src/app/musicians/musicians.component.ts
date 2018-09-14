@@ -51,24 +51,38 @@ import { LocalStorageService } from 'angular-2-local-storage';
 
 export class MusiciansComponent implements OnInit {
 
-  state = [['large', 'large2', 'invisible'], ['large', 'large2', 'invisible'], ['large', 'large2', 'invisible'], ['large', 'large2', 'invisible']];
+  state: Array <any>;
   
-  readMore1 = true;
-  readMore1b = true;
-  readMore2 = true;
-  readMore2b = true;
-  readMore3 = true;
-  readMore3b = true;
-  readMore4 = true;
-  readMore4b = true;
+  readMore1: Boolean;
+  readMore1b: Boolean;
+  readMore2: Boolean;
+  readMore2b: Boolean;
+  readMore3: Boolean;
+  readMore3b: Boolean;
+  readMore4: Boolean;
+  readMore4b: Boolean;
   
 
-  imgHover = [true, true, true, true];
+  imgHover: Array <Boolean>;
 
-  imgClicked = [false, false, false, false];
+  imgClicked: Array <Boolean>;
   
   constructor(private localStorageService: LocalStorageService) {
+    this.state = [['large', 'large2', 'invisible'], ['large', 'large2', 'invisible'], ['large', 'large2', 'invisible'], ['large', 'large2', 'invisible']];
+  
+    this.readMore1 = true;
+    this.readMore1b = true;
+    this.readMore2 = true;
+    this.readMore2b = true;
+    this.readMore3 = true;
+    this.readMore3b = true;
+    this.readMore4 = true;
+    this.readMore4b = true;
+  
 
+    this.imgHover = [true, true, true, true];
+
+    this.imgClicked = [false, false, false, false];
   }
 
 

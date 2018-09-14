@@ -17,6 +17,11 @@
 	animation: animate 40s linear infinite;
 }
 
+.headline{
+	text-decoration: none;
+	color: inherit;
+}
+
 @keyframes animate{
 	0% {
 		background-position: 0 0;
