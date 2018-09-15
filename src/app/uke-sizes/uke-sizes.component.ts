@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 import { trigger, state, style, transition, animate, keyframes } from '@angular/animations';
 
+import { Title } from '@angular/platform-browser';
+
 @Component({
   selector: 'app-uke-sizes',
   templateUrl: './uke-sizes.component.html',
@@ -42,9 +44,14 @@ export class UkeSizesComponent implements OnInit {
   state = [['overUke', 'default', 'transparent'], ['overUke', 'default', 'transparent'], ['overUke', 'default', 'transparent'], ['overUke', 'default', 'transparent']];
   data = [['baritone', false], ['tenor', false], ['concert', false], ['soprano', false]];
 
-  constructor() { }
+  constructor(private titleService: Title) { }
 
   ngOnInit() {
+    this.setTitle( 'Jewkulele - גדלי היוקוללה' );
+  }
+
+  setTitle( newTitle: string) {
+    this.titleService.setTitle( newTitle );
   }
 
   showData(a){

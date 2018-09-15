@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { Title } from '@angular/platform-browser';
+
 @Component({
   selector: 'app-uke-relatives',
   templateUrl: './uke-relatives.component.html',
@@ -16,7 +18,7 @@ export class UkeRelativesComponent implements OnInit {
   pic3Sets: Array<any> = [];
   pic4Sets: Array<any> = [];
 
-  constructor() { 
+  constructor(private titleService: Title) { 
 
     this.about = [true, true, true, true];
     this.pics = [false, false, false, false];
@@ -53,6 +55,11 @@ export class UkeRelativesComponent implements OnInit {
 
 
   ngOnInit() {
+    this.setTitle( 'Jewkulele - קרובי משפחה' );
+  }
+
+  setTitle( newTitle: string) {
+    this.titleService.setTitle( newTitle );
   }
 
   showAbout(a){

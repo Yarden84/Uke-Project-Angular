@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { Title } from '@angular/platform-browser';
+
 @Component({
   selector: 'app-uke-types',
   templateUrl: './uke-types.component.html',
@@ -16,7 +18,7 @@ export class UkeTypesComponent implements OnInit {
   items3: Array<any> = [];
   items4: Array<any> = [];
   
-  constructor() { 
+  constructor(private titleService: Title) { 
     
     this.about = [true, true, true, true];
     this.carousel = [false, false, false, false];
@@ -84,6 +86,8 @@ export class UkeTypesComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.setTitle( 'Jewkulele - הכלאות' );
+
     var ukeHarpReset = (localStorage.getItem('ukeHarpReset') === 'true');
 
     if (ukeHarpReset){
@@ -96,6 +100,10 @@ export class UkeTypesComponent implements OnInit {
       document.getElementById('vidBtn1').scrollIntoView();
       localStorage.setItem('ukeHarpReset', 'true');
     }
+  }
+  
+  setTitle( newTitle: string) {
+    this.titleService.setTitle( newTitle );
   }
 
   showAbout(a){

@@ -4,6 +4,8 @@ import { LocalStorageService } from 'angular-2-local-storage';
 
 import { Router } from '@angular/router';
 
+import { Title } from '@angular/platform-browser';
+
 
 @Component({
   selector: 'app-main-page',
@@ -12,11 +14,17 @@ import { Router } from '@angular/router';
 })
 export class MainPageComponent implements OnInit {
 
-  constructor(private localStorageService: LocalStorageService, private router: Router) { }
+  constructor(private localStorageService: LocalStorageService, private router: Router, private titleService: Title) { }
 
   ngOnInit() {
+    this.setTitle( 'Jewkulele - עמוד ראשי' );
+
     localStorage.setItem('jhLink', 'false');
     localStorage.setItem('ukeHarpLink', 'false');
+  }
+
+  setTitle( newTitle: string) {
+    this.titleService.setTitle( newTitle );
   }
 
   JHLink(a){

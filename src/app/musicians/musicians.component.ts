@@ -4,6 +4,8 @@ import { trigger, state, style, transition, animate, keyframes } from '@angular/
 
 import { LocalStorageService } from 'angular-2-local-storage';
 
+import { Title } from '@angular/platform-browser';
+
 
 
 @Component({
@@ -68,7 +70,7 @@ export class MusiciansComponent implements OnInit {
 
   imgClicked: Array <Boolean>;
   
-  constructor(private localStorageService: LocalStorageService) {
+  constructor(private localStorageService: LocalStorageService, private titleService: Title) {
     this.state = [['large', 'large2', 'invisible'], ['large', 'large2', 'invisible'], ['large', 'large2', 'invisible'], ['large', 'large2', 'invisible']];
   
     this.readMore1 = true;
@@ -88,6 +90,7 @@ export class MusiciansComponent implements OnInit {
 
 
   ngOnInit() {
+    this.setTitle( 'Jewkulele - נגנים מפורסמים' );
     var jhReset = (localStorage.getItem('jhReset') === 'true');
 
     if (jhReset){
@@ -101,6 +104,10 @@ export class MusiciansComponent implements OnInit {
       setTimeout(() => this.adjust(3), 100);
       localStorage.setItem('jhReset', 'true');
     }
+  }
+
+  setTitle( newTitle: string) {
+    this.titleService.setTitle( newTitle );
   }
  
   adjust(a){

@@ -16,6 +16,8 @@ import { Angular2ImageGalleryModule } from 'angular2-image-gallery';
 
 import { LocalStorageModule } from 'angular-2-local-storage';
 
+import { Title }  from '@angular/platform-browser';
+
 
 import { AppComponent } from './app.component';
 
@@ -59,7 +61,9 @@ import { TunerComponent } from './tuner/tuner.component';
       storageType: 'localStorage'
     })
   ],
-  providers: [],
+  providers: [
+    Title
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

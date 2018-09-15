@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-// import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation } from 'ngx-gallery';
+
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-gallery',
@@ -10,11 +11,14 @@ export class GalleryComponent implements OnInit {
 
 
 
-  constructor() { }
+  constructor(private titleService: Title) { }
     
   ngOnInit(): void {
- 
-   
+    this.setTitle( 'Jewkulele - גלריה' );
+  }
+
+  setTitle( newTitle: string) {
+    this.titleService.setTitle( newTitle );
   }
 
 }
