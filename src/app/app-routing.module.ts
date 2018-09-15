@@ -24,7 +24,8 @@ const routes: Routes = [
   {path: 'tuner', component: TunerComponent},
   {path: 'ukerelatives', component: UkeRelativesComponent},
   {path: 'ukesizes', component: UkeSizesComponent},
-  {path: 'uketypes', component: UkeTypesComponent}
+  {path: 'uketypes', component: UkeTypesComponent},
+  { path: '**', redirectTo: '/mainpage', pathMatch: 'full' },
 ];
 
 @NgModule({
