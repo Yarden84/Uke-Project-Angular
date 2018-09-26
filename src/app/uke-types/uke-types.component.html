@@ -1,300 +1,307 @@
 <div id="BG" dir="rtl">
-  <div class="container-fluid"  id="banjoleleBG">
-      <h1 class="text-center" id="banjoleleH"><strong>בנג'וללה</strong></h1>
+    <div class="container-fluid" id="banjoleleBG">
+        <h1 class="text-center" id="banjoleleH"><strong>בנג'וללה</strong></h1>
 
-      <br>
+        <br>
 
-      <div class="row">
-          <div id="details1">
-              
-              <div class="col-md-9"  id="about1" *ngIf="about[0]">
-                  <p><strong> הבנג'ו יוקוללה, א.ק.א בנג'וללה, הוא שילוב בין, ניחשתם נכון, בנג'ו ויוקוללה. הבנג'וללה הופיע לראשונה ב-1917 ואומץ על ידי אמני וודויל שהיו צריכים כלי נגינה עם הניידות של היוקוללה אבל עם ווליום חזק יותר (כך לפחות לפי ויקיפדיה, לבנג'וללה שיצא לי לנגן בו לא היה ווליום חזק במיוחד, והוא היה כבד יותר משמעותית מיוקוללה רגיל).</strong></p>
+        <div class="row">
+            <div id="details1">
 
-                  <p><strong>גוף הכלי זהה לזה של הבנג'ו אך מותאם לגודל של היוקוללה. גודל הכלי לרוב תואם את הגודל של היוקוללה סופרן או היוקוללה קונצרט. הצליל שהבנג'וללי מפיק דומה מאוד לצליל שמפיק הבנג'ו בשילוב עם הסאונד הדינמי של פריטה על יוקוללה.</strong></p>
-                  <p><strong>
-                  <a href="https://en.wikipedia.org/wiki/George_Formby" target="_block">ג'ורג' פורמבי</a>
-                    היה אחד מהפרפורמרים המזוהים ביותר עם הכלי והרבה לשלב אותו בהופעותיו. אמנים נוספים שגילו עניין בכלי הם
-                      <a href="https://www.youtube.com/watch?v=YKrOs_CT-SY" target="_block" style="padding-left: 5px;">ג'ורג' האריסון</a>
-                      <a href="https://www.youtube.com/watch?v=POsOP3TF-XY" target="_block">ובריאן מיי</a>.
-                  </strong></p>
+                <div class="col-xs-9" id="about1" *ngIf="about[0]">
+                    <p><strong> הבנג'ו יוקוללה, א.ק.א בנג'וללה, הוא שילוב בין, ניחשתם נכון, בנג'ו ויוקוללה. הבנג'וללה הופיע
+                            לראשונה ב-1917 ואומץ על ידי אמני וודויל שהיו צריכים כלי נגינה עם הניידות של היוקוללה אבל עם ווליום
+                            חזק יותר (כך לפחות לפי ויקיפדיה, לבנג'וללה שיצא לי לנגן בו לא היה ווליום חזק במיוחד, והוא היה
+                            כבד יותר משמעותית מיוקוללה רגיל).</strong></p>
 
-              </div>
+                    <p><strong>גוף הכלי זהה לזה של הבנג'ו אך מותאם לגודל של היוקוללה. גודל הכלי לרוב תואם את הגודל של היוקוללה
+                            סופרן או היוקוללה קונצרט. הצליל שהבנג'וללי מפיק דומה מאוד לצליל שמפיק הבנג'ו בשילוב עם הסאונד
+                            הדינמי של פריטה על יוקוללה.</strong></p>
+                    <p><strong>
+                            <a href="https://en.wikipedia.org/wiki/George_Formby" target="_block">ג'ורג' פורמבי</a>
+                            היה אחד מהפרפורמרים המזוהים ביותר עם הכלי והרבה לשלב אותו בהופעותיו. אמנים נוספים שגילו עניין בכלי הם
+                            <a href="https://www.youtube.com/watch?v=YKrOs_CT-SY" target="_block" style="padding-left: 5px;">ג'ורג'
+                                האריסון</a>
+                            <a href="https://www.youtube.com/watch?v=POsOP3TF-XY" target="_block">ובריאן מיי</a>.
+                        </strong></p>
 
-              <div class="col-md-9" id="carousel1" dir="ltr" *ngIf="carousel[0]">
-                  <div ng2-carouselamos class="slides-wrapper"
-                    [items]="items1"
-                    [width]="800"
-                    [$prev]="prev"
-                    [$next]="next"
-                    [$item]="item">
-                  </div>
+                </div>
 
-                  
-                  <ng-template #prev>
-                    <img src="../../assets/img/gallery/prev.png" id="left" alt="no img">
-                  </ng-template>
-
-                  <ng-template #next id="test">
-                    <img src="../../assets/img/gallery/next.png" id="right" alt="no img">
-                  </ng-template>
-
-
-                  <ng-template #item let-item let-i="index">
-                    <div class="items">
-                      <img src="{{ item.name }}">  
+                <div class="col-xs-9" id="carousel1" dir="ltr" *ngIf="carousel[0]">
+                    <div ng2-carouselamos class="slides-wrapper" [items]="items1" [width]="800" [$prev]="prev" [$next]="next" [$item]="item">
                     </div>
-                  </ng-template>
-              </div>
-
-              
-
-              <div class="col-md-9"  id="vid1" *ngIf="vid[0]">
-                  <div class="row">
-                      <div class="col-xs-6">
-                          <iframe width="400" height="215" src="https://www.youtube.com/embed/NrtDtTBkfb8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                      </div>
-                      <div class="col-xs-6">
-                          <iframe width="400" height="215" src="https://www.youtube.com/embed/bPrFnyOdpO0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                      </div>
-                  </div>
-              </div>
-
-              
-
-              <div class="col-md-3">
-                  <img class="img-circle" id="banjolele" src="../../assets/img/Banjolele3.jpg" alt="no image">
-              </div>
-
-          </div>
 
 
-          <div class="col-md-9" id="buttons1">
-              <button class="btn btn-warning" id="aboutBtn1" (click)="showAbout(0)">על הכלי</button>
-              <button class="btn btn-primary" id="picBtn1" (click)="showCarousel(0)">תמונות</button>
-              <button class="btn btn-success" id="vidBtn1" (click)="showVid(0)">סרטונים</button>
-          </div>
+                    <ng-template #prev>
+                        <img src="../../assets/img/gallery/prev.png" id="left" alt="no img">
+                    </ng-template>
 
-      </div>
+                    <ng-template #next id="test">
+                        <img src="../../assets/img/gallery/next.png" id="right" alt="no img">
+                    </ng-template>
 
-  </div>
 
-  <div class="divider1"></div>
-
-  <div class="divider2"></div>
-
-  <div class="container-fluid" id="harpUkeBG">
-      <h1 class="text-center" id="harpUkeH"><strong>יוקוללה-נבל</strong></h1>
-
-      <br>
-
-      <div class="row">
-          <div id="details2">
-              <div  class="col-md-9" id="about2"  *ngIf="about[1]">
-                  <p><strong>היוקוללה-נבל (או כמו שאני אוהב לקרוא לו, הנבללה) הוא למעשה גירסת היוקוללה לגיטרת הנבל שזכתה לפופולאריות מסוימת בתחילת המאה הקודמת. מאז ירדה קרנו של היוקוללה-נבל, אולם החל משנות ה-90 החלו לצוץ פה ושם יוקלליים מהסוג הנ"ל. בימינו ניתן למצוא את הנבללה במרשתת בדומה לכל פריט איזוטרי אחר.</strong></p>
-
-                  <p><strong>נוסף לארבעת מיתרי היוקוללי, ליוקוללי-נבל יש בין 2 ל-6 מיתרים נמוכים יותר ללא סריגים (ניתן לפרוט עליהם במצב "פתוח" בלבד). לרוב, יש למיתרים אלו חור תהודה נוסף. כלי זה עשוי להתאים לחובבי יוקוללה מושבעים שמעוניינים להתנסות ביוקוללה עם טווח צלילים רחב יותר ו/או לאנשים שאוהבים להרגיש מיוחדים.</strong></p>
-
-              </div>
-
-                
-              <div  class="col-md-9" id="carousel2" dir="ltr" *ngIf="carousel[1]">
-                <div ng2-carouselamos class="slides-wrapper"
-                  [items]="items2"
-                  [width]="800"
-                  [$prev]="prev"
-                  [$next]="next"
-                  [$item]="item">
+                    <ng-template #item let-item let-i="index">
+                        <div class="items">
+                            <img src="{{ item.name }}">
+                        </div>
+                    </ng-template>
                 </div>
 
-                  
-                <ng-template #prev>
-                  <img src="../../assets/img/gallery/prev.png" id="left" alt="no img">
-                </ng-template>
-
-                <ng-template #next id="test">
-                  <img src="../../assets/img/gallery/next.png" id="right" alt="no img">
-                </ng-template>
 
 
-                <ng-template #item let-item let-i="index">
-                  <div class="items">
-                    <img src="{{ item.name }}">  
-                  </div>
-                </ng-template>
-              </div>  
-
-              <div  class="col-md-9" id="vid2" *ngIf="vid[1]">
-                  <div class="row">
-                      <div class="col-xs-6">
-                          <iframe width="400" height="215" src="https://www.youtube.com/embed/ZEHqlBb94GQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                      </div>
-                      <div class="col-xs-6">
-                          <iframe width="400" height="215" src="https://www.youtube.com/embed/Xxzjjj-tGM0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                      </div>
-                  </div>
-              </div>
-
-              
-
-              <div class="col-md-3">
-                  <img class="img-circle" id="harpUkulele" src="../../assets/img/harpUke2.jpg" alt="no image">
-              </div>
-
-          </div>
-
-          <div  class="col-md-9" id="buttons2">
-              <button class="btn btn-warning" id="aboutBtn2" (click)="showAbout(1)">על הכלי</button>
-              <button class="btn btn-primary" id="picBtn2" (click)="showCarousel(1)">תמונות</button>
-              <button class="btn btn-success" id="vidBtn2" (click)="showVid(1)">סרטונים</button>
-          </div>
-
-      </div>
-
-  </div>
-
-  <div class="divider3"></div>
-
-  <div class="divider4"></div>
-
-  <div class="container-fluid" id="eleUkeBG">
-      <h1 class="text-center" id="eleUkeH"><strong>יוקוללה חשמלי</strong></h1>
-
-      <br>
-
-      <div class="row">
-
-          <div id="details3">
-
-              <div  class="col-md-9" id="about3"  *ngIf="about[2]">
-                  <p><strong>היוקוללה החשמלי הוא למעשה כל יוקוללה שניתן לחבר למגבר, אולם לרוב כשאומרים יוקוללה חשמלי מתכוונים ליוקוללי מוגבר בעל צורה הדומה לגיטרה חשמלית. ישנם יוקולליים חשמליים הדומים לגיטרה חשמלית באופן שיטחי בלבד, והם למעשה מתפקדים בתור יוקוללה רגיל בעל תיבת תהודה שניתן לנגן עליו גם ללא הגברה. לעומת זאת, ישנם יוקולליים שדומים לגיטרה חשמלית גם באופן בו הורכבו. ליוקולליים מסוג זה יש פיקאפים דומים לאלו שקיימים בגיטרה חשמלית, ומיתרי מתכת. אחת החברות הידועות באגף היוקולליים החשמליים היא חברת Risa הגרמנית.</strong></p>
-
-              </div>
-
-              <div  class="col-md-9" id="carousel3" dir="ltr" *ngIf="carousel[2]">
-                <div ng2-carouselamos class="slides-wrapper"
-                  [items]="items3"
-                  [width]="800"
-                  [$prev]="prev"
-                  [$next]="next"
-                  [$item]="item">
+                <div class="col-xs-9" id="vid1" *ngIf="vid[0]">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <iframe width="400" height="215" src="https://www.youtube.com/embed/NrtDtTBkfb8" frameborder="0" allow="autoplay; encrypted-media"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="col-xs-6">
+                            <iframe width="400" height="215" src="https://www.youtube.com/embed/bPrFnyOdpO0" frameborder="0" allow="autoplay; encrypted-media"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
                 </div>
 
-                  
-                <ng-template #prev>
-                  <img src="../../assets/img/gallery/prev.png" id="left" alt="no img">
-                </ng-template>
-
-                <ng-template #next id="test">
-                  <img src="../../assets/img/gallery/next.png" id="right" alt="no img">
-                </ng-template>
 
 
-                <ng-template #item let-item let-i="index">
-                  <div class="items">
-                    <img src="{{ item.name }}">  
-                  </div>
-                </ng-template>
-              </div>
-
-              <div  class="col-md-9" id="vid3" *ngIf="vid[2]">
-                  <div class="row">
-                      <div class="col-xs-6">
-                          <iframe width="400" height="215" src="https://www.youtube.com/embed/o0grrM0FpqE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                      </div>
-                      <div class="col-xs-6">
-                          <iframe width="400" height="215" src="https://www.youtube.com/embed/q0hJSlUd80I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                      </div>
-                  </div>
-              </div>
-
-              <div class="col-md-3">
-                  <img class="img-circle" id="electricUkulele" src="../../assets/img/electricUke3.jpg" alt="no image">
-              </div>
-
-          </div>
-
-          <div  class="col-md-9" id="buttons3">
-              <button class="btn btn-warning" id="aboutBtn3" (click)="showAbout(2)">על הכלי</button>
-              <button class="btn btn-primary" id="picBtn3" (click)="showCarousel(2)">תמונות</button>
-              <button class="btn btn-success" id="vidBtn3" (click)="showVid(2)">סרטונים</button>
-          </div>
-      </div>
-
-  </div>
-
-  <div class="divider1"></div>
-
-  <div class="divider2"></div>
-
-  <div class="container-fluid" id="uBassBG">
-      <h1 class="text-center" id="uBassH"><strong>יוקוללה-בס</strong></h1>
-
-      <br>
-
-      <div class="row">
-
-          <div id="details4">
-
-              <div  class="col-md-9" id="about4" *ngIf="about[3]">
-                  <p><strong>היוקוללה-בס הוא פיתוח מעניין של Kala, אחת מהחברות הבולטות בשוק היוקוללה. הרעיון לייצר יוקללה-בס התאפשר הודות לפיתוח של מיתרים מיוחדים דמוי גומי העשויים מחומר הנקרא פוליאוריתן. הצליל שהכלי מפיק עם מיתרים אלו מזכיר מעט את הקונטרבס. חשוב לציין שהיוקוללה בס תלוי לחלוטין בהגברה.</strong></p>
-
-                  <p><strong>כלי זה עשוי להיות מושלם עבור הרכבי יוקוללה שרוצים לשמור על הלוק הקומפקטי שלהם, או עבור בסיסטים עם ידיים קצרות במיוחד.</strong></p>
-
-              </div>
-
-              <div  class="col-md-9" id="carousel4" dir="ltr" *ngIf="carousel[3]">
-                <div ng2-carouselamos class="slides-wrapper"
-                  [items]="items4"
-                  [width]="800"
-                  [$prev]="prev"
-                  [$next]="next"
-                  [$item]="item">
+                <div class="col-xs-3">
+                    <img class="img-circle" id="banjolele" src="../../assets/img/Banjolele3.jpg" alt="no image">
                 </div>
 
-                  
-                <ng-template #prev>
-                  <img src="../../assets/img/gallery/prev.png" id="left" alt="no img">
-                </ng-template>
-
-                <ng-template #next id="test">
-                  <img src="../../assets/img/gallery/next.png" id="right" alt="no img">
-                </ng-template>
+            </div>
 
 
-                <ng-template #item let-item let-i="index">
-                  <div class="items">
-                    <img src="{{ item.name }}">  
-                  </div>
-                </ng-template>
-              </div>
+            <div class="col-xs-9" id="buttons1">
+                <button class="btn btn-warning" id="aboutBtn1" (click)="showAbout(0)">על הכלי</button>
+                <button class="btn btn-primary" id="picBtn1" (click)="showCarousel(0)">תמונות</button>
+                <button class="btn btn-success" id="vidBtn1" (click)="showVid(0)">סרטונים</button>
+            </div>
 
-              <div  class="col-md-9" id="vid4" *ngIf="vid[3]">
-                  <div class="row">
-                      <div class="col-xs-6">
-                          <iframe width="400" height="215" src="https://www.youtube.com/embed/29wgbMBKvFE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                      </div>
-                      <div class="col-xs-6">
-                          <iframe width="400" height="215" src="https://www.youtube.com/embed/fzepx9cI-mw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                      </div>
-                  </div>
-              </div>
+        </div>
+
+    </div>
+
+    <div class="divider1"></div>
+
+    <div class="divider2"></div>
+
+    <div class="container-fluid" id="harpUkeBG">
+        <h1 class="text-center" id="harpUkeH"><strong>יוקוללה-נבל</strong></h1>
+
+        <br>
+
+        <div class="row">
+            <div id="details2">
+                <div class="col-xs-9" id="about2" *ngIf="about[1]">
+                    <p><strong>היוקוללה-נבל (או כמו שאני אוהב לקרוא לו, הנבללה) הוא למעשה גירסת היוקוללה לגיטרת הנבל שזכתה
+                            לפופולאריות מסוימת בתחילת המאה הקודמת. מאז ירדה קרנו של היוקוללה-נבל, אולם החל משנות ה-90 החלו
+                            לצוץ פה ושם יוקלליים מהסוג הנ"ל. בימינו ניתן למצוא את הנבללה במרשתת בדומה לכל פריט איזוטרי אחר.</strong></p>
+
+                    <p><strong>נוסף לארבעת מיתרי היוקוללי, ליוקוללי-נבל יש בין 2 ל-6 מיתרים נמוכים יותר ללא סריגים (ניתן
+                            לפרוט עליהם במצב "פתוח" בלבד). לרוב, יש למיתרים אלו חור תהודה נוסף. כלי זה עשוי להתאים לחובבי
+                            יוקוללה מושבעים שמעוניינים להתנסות ביוקוללה עם טווח צלילים רחב יותר ו/או לאנשים שאוהבים להרגיש
+                            מיוחדים.</strong></p>
+
+                </div>
 
 
-              <div class="col-md-3">
-              <img class="img-circle" id="uBass" src="../../assets/img/uBass-1.jpg" alt="no image">
-          </div>
-
-          </div>
+                <div class="col-xs-9" id="carousel2" dir="ltr" *ngIf="carousel[1]">
+                    <div ng2-carouselamos class="slides-wrapper" [items]="items2" [width]="800" [$prev]="prev" [$next]="next" [$item]="item">
+                    </div>
 
 
-          <div  class="col-md-9" id="buttons4">
-              <button class="btn btn-warning" id="aboutBtn4" (click)="showAbout(3)">על הכלי</button>
-              <button class="btn btn-primary" id="picBtn4" (click)="showCarousel(3)">תמונות</button>
-              <button class="btn btn-success" id="vidBtn4" (click)="showVid(3)">סרטונים</button>
-          </div>
-      </div>
+                    <ng-template #prev>
+                        <img src="../../assets/img/gallery/prev.png" id="left" alt="no img">
+                    </ng-template>
 
-  </div>
+                    <ng-template #next id="test">
+                        <img src="../../assets/img/gallery/next.png" id="right" alt="no img">
+                    </ng-template>
+
+
+                    <ng-template #item let-item let-i="index">
+                        <div class="items">
+                            <img src="{{ item.name }}">
+                        </div>
+                    </ng-template>
+                </div>
+
+                <div class="col-xs-9" id="vid2" *ngIf="vid[1]">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <iframe width="400" height="215" src="https://www.youtube.com/embed/ZEHqlBb94GQ" frameborder="0" allow="autoplay; encrypted-media"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="col-xs-6">
+                            <iframe width="400" height="215" src="https://www.youtube.com/embed/Xxzjjj-tGM0" frameborder="0" allow="autoplay; encrypted-media"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-xs-3">
+                    <img class="img-circle" id="harpUkulele" src="../../assets/img/harpUke2.jpg" alt="no image">
+                </div>
+
+            </div>
+
+            <div class="col-xs-9" id="buttons2">
+                <button class="btn btn-warning" id="aboutBtn2" (click)="showAbout(1)">על הכלי</button>
+                <button class="btn btn-primary" id="picBtn2" (click)="showCarousel(1)">תמונות</button>
+                <button class="btn btn-success" id="vidBtn2" (click)="showVid(1)">סרטונים</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="divider3"></div>
+
+    <div class="divider4"></div>
+
+    <div class="container-fluid" id="eleUkeBG">
+        <h1 class="text-center" id="eleUkeH"><strong>יוקוללה חשמלי</strong></h1>
+
+        <br>
+
+        <div class="row">
+
+            <div id="details3">
+
+                <div class="col-xs-9" id="about3" *ngIf="about[2]">
+                    <p><strong>היוקוללה החשמלי הוא למעשה כל יוקוללה שניתן לחבר למגבר, אולם לרוב כשאומרים יוקוללה חשמלי מתכוונים
+                            ליוקוללי מוגבר בעל צורה הדומה לגיטרה חשמלית. ישנם יוקולליים חשמליים הדומים לגיטרה חשמלית באופן
+                            שיטחי בלבד, והם למעשה מתפקדים בתור יוקוללה רגיל בעל תיבת תהודה שניתן לנגן עליו גם ללא הגברה.
+                            לעומת זאת, ישנם יוקולליים שדומים לגיטרה חשמלית גם באופן בו הורכבו. ליוקולליים מסוג זה יש פיקאפים
+                            דומים לאלו שקיימים בגיטרה חשמלית, ומיתרי מתכת. אחת החברות הידועות באגף היוקולליים החשמליים היא
+                            חברת Risa הגרמנית.</strong></p>
+
+                </div>
+
+                <div class="col-xs-9" id="carousel3" dir="ltr" *ngIf="carousel[2]">
+                    <div ng2-carouselamos class="slides-wrapper" [items]="items3" [width]="800" [$prev]="prev" [$next]="next" [$item]="item">
+                    </div>
+
+
+                    <ng-template #prev>
+                        <img src="../../assets/img/gallery/prev.png" id="left" alt="no img">
+                    </ng-template>
+
+                    <ng-template #next id="test">
+                        <img src="../../assets/img/gallery/next.png" id="right" alt="no img">
+                    </ng-template>
+
+
+                    <ng-template #item let-item let-i="index">
+                        <div class="items">
+                            <img src="{{ item.name }}">
+                        </div>
+                    </ng-template>
+                </div>
+
+                <div class="col-xs-9" id="vid3" *ngIf="vid[2]">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <iframe width="400" height="215" src="https://www.youtube.com/embed/o0grrM0FpqE" frameborder="0" allow="autoplay; encrypted-media"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="col-xs-6">
+                            <iframe width="400" height="215" src="https://www.youtube.com/embed/q0hJSlUd80I" frameborder="0" allow="autoplay; encrypted-media"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-3">
+                    <img class="img-circle" id="electricUkulele" src="../../assets/img/electricUke3.jpg" alt="no image">
+                </div>
+
+            </div>
+
+            <div class="col-xs-9" id="buttons3">
+                <button class="btn btn-warning" id="aboutBtn3" (click)="showAbout(2)">על הכלי</button>
+                <button class="btn btn-primary" id="picBtn3" (click)="showCarousel(2)">תמונות</button>
+                <button class="btn btn-success" id="vidBtn3" (click)="showVid(2)">סרטונים</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="divider1"></div>
+
+    <div class="divider2"></div>
+
+    <div class="container-fluid" id="uBassBG">
+        <h1 class="text-center" id="uBassH"><strong>יוקוללה-בס</strong></h1>
+
+        <br>
+
+        <div class="row">
+
+            <div id="details4">
+
+                <div class="col-xs-9" id="about4" *ngIf="about[3]">
+                    <p><strong>היוקוללה-בס הוא פיתוח מעניין של Kala, אחת מהחברות הבולטות בשוק היוקוללה. הרעיון לייצר יוקללה-בס
+                            התאפשר הודות לפיתוח של מיתרים מיוחדים דמוי גומי העשויים מחומר הנקרא פוליאוריתן. הצליל שהכלי מפיק
+                            עם מיתרים אלו מזכיר מעט את הקונטרבס. חשוב לציין שהיוקוללה בס תלוי לחלוטין בהגברה.</strong></p>
+
+                    <p><strong>כלי זה עשוי להיות מושלם עבור הרכבי יוקוללה שרוצים לשמור על הלוק הקומפקטי שלהם, או עבור בסיסטים
+                            עם ידיים קצרות במיוחד.</strong></p>
+
+                </div>
+
+                <div class="col-xs-9" id="carousel4" dir="ltr" *ngIf="carousel[3]">
+                    <div ng2-carouselamos class="slides-wrapper" [items]="items4" [width]="800" [$prev]="prev" [$next]="next" [$item]="item">
+                    </div>
+
+
+                    <ng-template #prev>
+                        <img src="../../assets/img/gallery/prev.png" id="left" alt="no img">
+                    </ng-template>
+
+                    <ng-template #next id="test">
+                        <img src="../../assets/img/gallery/next.png" id="right" alt="no img">
+                    </ng-template>
+
+
+                    <ng-template #item let-item let-i="index">
+                        <div class="items">
+                            <img src="{{ item.name }}">
+                        </div>
+                    </ng-template>
+                </div>
+
+                <div class="col-xs-9" id="vid4" *ngIf="vid[3]">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <iframe width="400" height="215" src="https://www.youtube.com/embed/29wgbMBKvFE" frameborder="0" allow="autoplay; encrypted-media"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="col-xs-6">
+                            <iframe width="400" height="215" src="https://www.youtube.com/embed/fzepx9cI-mw" frameborder="0" allow="autoplay; encrypted-media"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-xs-3">
+                    <img class="img-circle" id="uBass" src="../../assets/img/uBass-1.jpg" alt="no image">
+                </div>
+
+            </div>
+
+
+            <div class="col-xs-9" id="buttons4">
+                <button class="btn btn-warning" id="aboutBtn4" (click)="showAbout(3)">על הכלי</button>
+                <button class="btn btn-primary" id="picBtn4" (click)="showCarousel(3)">תמונות</button>
+                <button class="btn btn-success" id="vidBtn4" (click)="showVid(3)">סרטונים</button>
+            </div>
+        </div>
+
+    </div>
 
 
 </div>
