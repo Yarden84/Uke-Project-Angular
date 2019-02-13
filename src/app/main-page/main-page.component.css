@@ -180,10 +180,21 @@
 }
 
 #vid {
-  position: relative;
-  right: 40px;
-  top: 10px;
+  text-align: center;
+  margin-top: 28px;
 }
+
+@media screen and (min-width: 1500px){
+  #vid {
+    margin-top: 10px;
+  }
+
+  #vid iframe{
+    height: 285px;
+    width: 600px;
+  }
+}
+
 
 #weeklyVid h1 {
   font-family: "Nehama", serif;

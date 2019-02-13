@@ -5,7 +5,14 @@
 
 .chordFinder{
 	font-family: 'Nehama', serif;
+	height: 100vh;
+    position: relative;
+}
 
+@media screen and (min-width: 1500px){
+	.chordFinder{
+		height: 82vh;
+	}
 }
 
 .chooseChord{
@@ -20,23 +27,22 @@
 }
 
 .chordIndex{
-	float: right;
+	text-align: right;
 	margin: 0px 30px;
 }
 
 
 
 .chordIndex form{
-	float: right;
+	display: inline-block;
 	margin-right: 12px;
 }
 
 
 .chordIndex label {
-	float: right;
 	margin-right: 10px;
 	font-size: 30px;
-
+	vertical-align: middle;
 }
 
 .chordIndex select{
@@ -92,13 +98,18 @@
 
 
 
+
 #chordType {
-	
-	margin: 0px 30px;
+	background-image: url("../../assets/img/UkuleleNeck.jpg");
+	background-repeat: no-repeat;
+	height: 182px;
+	width: 886px;
+	margin: auto;
+	margin-top: 10vh;
+	position: relative;
 }
 
 #playBtn{
-	float: left;
 	margin-right: 30px;
     height: 30px;
     width: 60px;
@@ -113,7 +124,8 @@
 
 #greenDot1{
 
-	position: relative;
+	position: absolute;
+	/* top: 30px; */
 	height: 28px;
 	width: 28px;
 	display: none;
@@ -121,27 +133,31 @@
 }
 
 #greenDot2{
-	
-	position: relative;
+	position: absolute;
+	/* top: 60px; */
 	height: 28px;
 	width: 28px;
 	display: none;
 }
 
 #greenDot3{
-	
-	position: relative;
+	position: absolute;
+	/* top: 90px; */
 	height: 28px;
 	width: 28px;
 	display: none;
 }
 
 #greenDot4{
-	
-	position: relative;
+	position: absolute;
+	/* top: 120px; */
 	height: 28px;
 	width: 28px;
 	display: none;
+}
+
+.chordView{
+	margin-top: 50px;
 }
 
 
@@ -149,4 +165,7 @@
 .bottomLine {
 	background-color: rgb(148,84,46);
 	height: 90px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
 }

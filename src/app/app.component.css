@@ -6,7 +6,7 @@
 }
 
 .Jumbatron {
-  padding-top: 20px;
+  padding: 20px;
   position: relative;
   background-image: url("../assets/img/ukeBG.jpg");
   background-size: cover;
@@ -58,4 +58,10 @@
 
 .container {
   width: 1170px !important;
+}
+
+@media screen and (min-width: 1500px){
+  .container {
+    width: 1500px !important;
+  }
 }
