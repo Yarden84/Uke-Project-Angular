@@ -300,7 +300,16 @@ export class MusiciansComponent implements OnInit, PipeTransform {
 
     this.counter = 0;
 
-    this.musician = {};
+    this.musician = {
+      img: "",
+      name: "",
+      visibility: false,
+      abstract: ``,
+      about: {
+        text: this._sanitizer.bypassSecurityTrustHtml(this.text1),
+        visibility: false
+      }
+    };
 
     this.musicianNum = 0;
 
