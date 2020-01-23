@@ -47,25 +47,30 @@
 	</div>
 
 	<nav id="navbar" [@navbarTog]='state'>
-		<div class="navItem" routerLinkActive="active"><a routerLink="/about" routerLinkActive="active">אודות<span
-					routerLinkActive="active"></span></a></div>
-		<div class="navItem" routerLinkActive="active"><a routerLink="/links" routerLinkActive="active">קישורים<span
-					routerLinkActive="active"></span></a></div>
-		<div class="navItem" routerLinkActive="active"><a routerLink="/gallery" routerLinkActive="active">גלריה<span
-					routerLinkActive="active"></span></a></div>
-		<div class="navItem" routerLinkActive="active"><a routerLink="/tuner" routerLinkActive="active">טיונר<span
-					routerLinkActive="active"></span></a></div>
-		<div class="navItem" routerLinkActive="active"><a routerLink="/chordfinder" routerLinkActive="active">מנוע חיפוש
+		<div class="navItem" routerLinkActive="active"><a routerLink="/about" routerLinkActive="active"
+				(click)="toggleNav()">אודות<span routerLinkActive="active"></span></a></div>
+		<div class="navItem" routerLinkActive="active" (click)="toggleNav()"><a routerLink="/links"
+				routerLinkActive="active">קישורים<span routerLinkActive="active"></span></a></div>
+		<div class="navItem" routerLinkActive="active" (click)="toggleNav()"><a routerLink="/gallery"
+				routerLinkActive="active">גלריה<span routerLinkActive="active"></span></a></div>
+		<div class="navItem" routerLinkActive="active" (click)="toggleNav()"><a routerLink="/tuner"
+				routerLinkActive="active">טיונר<span routerLinkActive="active"></span></a></div>
+		<div class="navItem" routerLinkActive="active" (click)="toggleNav()"><a routerLink="/chordfinder"
+				routerLinkActive="active">מנוע חיפוש
 				אקורדים<span routerLinkActive="active"></span></a></div>
-		<div class="navItem" routerLinkActive="active"><a routerLink="/musicians" routerLinkActive="active">נגנים
+		<div class="navItem" routerLinkActive="active" (click)="toggleNav()"><a routerLink="/musicians"
+				routerLinkActive="active">נגנים
 				מפורסמים<span routerLinkActive="active"></span></a></div>
-		<div class="navItem" routerLinkActive="active"><a routerLink="/ukerelatives" routerLinkActive="active">קרובי
+		<div class="navItem" routerLinkActive="active" (click)="toggleNav()"><a routerLink="/ukerelatives"
+				routerLinkActive="active">קרובי
 				משפחה<span routerLinkActive="active"></span></a></div>
-		<div class="navItem" routerLinkActive="active"><a routerLink="/uketypes" routerLinkActive="active">הכלאות<span
-					routerLinkActive="active"></span></a></div>
-		<div class="navItem" routerLinkActive="active"><a routerLink="/ukesizes" routerLinkActive="active">גדלי
+		<div class="navItem" routerLinkActive="active" (click)="toggleNav()"><a routerLink="/uketypes"
+				routerLinkActive="active">הכלאות<span routerLinkActive="active"></span></a></div>
+		<div class="navItem" routerLinkActive="active" (click)="toggleNav()"><a routerLink="/ukesizes"
+				routerLinkActive="active">גדלי
 				היוקוללה<span routerLinkActive="active"></span></a></div>
-		<div class="navItem" routerLinkActive="active"><a routerLink="/mainpage" routerLinkActive="active">דף הבית</a>
+		<div class="navItem" routerLinkActive="active" (click)="toggleNav()"><a routerLink="/mainpage"
+				routerLinkActive="active">דף הבית</a>
 		</div>
 	</nav>
 </div>
