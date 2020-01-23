@@ -119,7 +119,7 @@ export class MusiciansComponent implements OnInit, PipeTransform {
 
   musicians: Array<any> = [];
 
-  musician: object;
+  musician: any;
   musicianNum: number;
 
   text1: any;
