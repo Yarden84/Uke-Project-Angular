@@ -17,15 +17,15 @@ import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 @Pipe({
   name: 'safe'
 })
-export class SanitizeHtmlPipe implements PipeTransform {
+// export class SanitizeHtmlPipe implements PipeTransform {
 
-  constructor(private _sanitizer: DomSanitizer) {
-  }
+//   constructor(private _sanitizer: DomSanitizer) {
+//   }
 
-  transform(v: string): SafeHtml {
-    return this._sanitizer.bypassSecurityTrustHtml(v);
-  }
-}
+//   transform(v: string): SafeHtml {
+//     return this._sanitizer.bypassSecurityTrustHtml(v);
+//   }
+// }
 
 @Component({
   selector: "app-musicians",
@@ -115,7 +115,7 @@ export class SanitizeHtmlPipe implements PipeTransform {
     ]),
   ]
 })
-export class MusiciansComponent implements OnInit {
+export class MusiciansComponent implements OnInit, PipeTransform {
 
   musicians: Array<any> = [];
 
@@ -144,7 +144,7 @@ export class MusiciansComponent implements OnInit {
   fullText: boolean;
 
 
-  constructor(private titleService: Title, private sanitizer: DomSanitizer) {
+  constructor(private titleService: Title, private _sanitizer: DomSanitizer) {
 
     this.text1 = ` "היוקוללה מבקש שלא להילקח ברצינות" אומרת פאלמר. לדבריה ההחלטה ללמוד לנגן ביוקוללה באה מתוך המחשבה שזו תהיה דרך
     מצחיקה לנגן את השיר 'קריפ' של רדיוהד. היא קנתה יוקוללה ב19.95 דולר (הלוואי והיה אפשר להשיג בארץ יוקוללה במחיר
@@ -190,7 +190,7 @@ export class MusiciansComponent implements OnInit {
       שימאבוקורו או ג'יימס היל. אלו הביאו את הנגינה בכלי הקטן לשיאים חדשים. עם כל הכבוד הראוי לאמנים מסוג זה, טוב שיש
       את אמנדה פאלמר להזכיר לנו כמה יופי ואמת ניתן למצוא בדברים הפשוטים, וכמה חן יש בנגינה פאנקיסטית מרושלת וחובבנית.`,
       about: {
-        text: this.sanitizer.bypassSecurityTrustHtml(this.text1),
+        text: this._sanitizer.bypassSecurityTrustHtml(this.text1),
         visibility: false
       }
     };
@@ -222,7 +222,7 @@ export class MusiciansComponent implements OnInit {
       צ'ילי פפרז ואילו ליוקוללה יש את ג'ייק שימאבוקורו. שימאבוקורו עשה לעצמו שם כוירטואוז יוקוללה הרבה בזכות סרטון
       יוטיוב שלו מ-2006 בו הוא מנגן גרסה יפה להפליא של השיר While my guitar gently whips:`,
       about: {
-        text: this.sanitizer.bypassSecurityTrustHtml(this.text2),
+        text: this._sanitizer.bypassSecurityTrustHtml(this.text2),
         visibility: false
       }
     };
@@ -259,7 +259,7 @@ export class MusiciansComponent implements OnInit {
       לכתיבת שירים וכבן לוויה נאמן שעזר לו להפיג את תחושת הבדידות בתקופות מסוימות. לעיתים היה עולה עם הכלי להדרן
       בהופעות. לטענתו היוקוללה מעודד שירה בצוותא, "זה כלי כזה קטן שאנשים כאילו אומרים 'בואו נעזור לו!'".`,
       about: {
-        text: this.sanitizer.bypassSecurityTrustHtml(this.text3),
+        text: this._sanitizer.bypassSecurityTrustHtml(this.text3),
         visibility: false
       }
     };
@@ -289,7 +289,7 @@ export class MusiciansComponent implements OnInit {
       אינסופי. היל מוכיח שהכלי הקטן הזה מסוגל להיות הרבה יותר מסתם עוד כלי ליווי בעל צליל מתקתק. הוא יכול להיות מכונת
       גרוב חסרת מעצורים, כפי שניתן לראות בביצוע הזה לBillie Jean של מייקל ג'קסון:`,
       about: {
-        text: this.sanitizer.bypassSecurityTrustHtml(this.text4),
+        text: this._sanitizer.bypassSecurityTrustHtml(this.text4),
         visibility: false
       }
     };
@@ -312,6 +312,10 @@ export class MusiciansComponent implements OnInit {
 
     this.showTextLink = true;
 
+  }
+
+  transform(v: string): SafeHtml {
+    return this._sanitizer.bypassSecurityTrustHtml(v);
   }
 
   ngOnInit() {
