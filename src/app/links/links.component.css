@@ -5,99 +5,105 @@
 
 /*----------------------------------------------------*/
 
-#link1 a{
-    color: white;
-    text-decoration: none;
-}
-#link1{
-    padding-top: 20px;
-}
-
-#img1 img{
-    border: 1px solid black;
-    border-radius: 5px;
-    width: 250px;
+.linksContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 40px 0;
 }
 
-#img1 h1{
-    font-family: "Arial Black", Gadget, sans-serif;
+.linkContainer{
+    display: flex;
+    width: 60%;
+    margin: auto;
 }
 
-#about1{
+.about p{
     padding-top: 80px;
+    padding-right: 80px;
     text-align: justify;
 }
 
-#about1 button{
-    font-size: 18px;
-}
 
-/*----------------------------------------------------*/
-
-#link2 a{
+button a{
     color: white;
     text-decoration: none;
 }
-#link2{
-    padding-top: 20px;
+
+.linkImg{
+    text-align: center;
 }
 
-#img2 img{
-    border: 1px solid black;
-    border-radius: 5px;
-    width: 250px;
-    height: 100px;
-}
-
-#img2 h1{
+.linkImg h1{
     font-family: "Arial Black", Gadget, sans-serif;
 }
 
-#about2{
-    padding-top: 80px;
-    text-align: justify;
-}
-
-#about2 button{
-    font-size: 18px;
-}
-
-/*----------------------------------------------------*/
-
-#link3 button a{
-    color: white;
-    text-decoration: none;
-}
-#link3{
-    padding-top: 20px;
-}
-
-#img3 img{
+.linkImg img{
     border: 1px solid black;
     border-radius: 5px;
     width: 250px;
+    height: 150px;
 }
-
-#img3 h1{
-    font-family: "Arial Black", Gadget, sans-serif;
-}
-
-#about3{
-    padding-top: 80px;
-    text-align: justify;
-}
-
-#about3 button{
-    font-size: 18px;
-}
-
-
-
-/*----------------------------------------------------*/
 
 .btn{
     height: 50px;
     width: 70px;
     font-size: 20px;
     background-color: #94542e;
+    /* font-family: 'Nehama', serif; */
+}
+
+@media screen and (max-width: 1300px){
+    .linkContainer{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .linkContainer{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .linkContainer{
+        flex-direction: column-reverse;
+        width: 70%;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about p{
+        padding: 4vw 0;
+        padding-right: initial;
+        font-size: 4vw;
+    }
+
+    .btn{
+        width: 50%;
+        margin: auto;
+        font-size: 4vw;
+    }
+
+    .linkImg h1{
+        font-size: 10vw;
+    }
+
+    .linkImg img{
+        width: 100%;
+        height: initial;
+    }
+
+    .btn{
+        border-radius: 25px;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .btn{
+        font-size: 6vw;
+    }
 }

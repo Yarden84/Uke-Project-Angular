@@ -8,16 +8,51 @@
 	src: url("../../assets/fonts/drugulin/DrugulinCLM-Bold.ttf")
 }
 
+#ukeContainer{
+	display: flex;
+	width: 90%;
+	height: 80vh;
+	margin: auto;
+	flex-wrap: wrap;
+}
+
+.uke{
+	width: 22vw;
+	text-align: center;
+}
+
+.ukeDataContainer{
+	display: flex;
+	position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.ukeData{
+	text-align: right;
+	font-family: 'Nehama', serif;
+	font-size: 16px;
+	margin: auto;
+	transform: translateX(-7vw);
+	z-index: 1;
+}
+
+.ukeData ul li ul li{
+	position: relative;
+	left: 30px;
+	width: 120px;
+}
+
+/*--------------------------------------------------------------------------------------*/
+
 #baritone{
 	position: relative;
-	padding-left: 80px;
 }
 
 #baritone h1{
 	font-family: 'Drugulin CLM', serif;
 	position: relative;
 	top: 25px;
-	left: 65px;
 }
 
 #baritoneImg{
@@ -27,19 +62,13 @@
 	cursor: pointer;
 }
 
-#baritoneData{
-	font-family: 'Nehama', serif;
-	font-size: 16px;
-	position: absolute;
-	right: 65px;
-	top: 95px;
-	/* display: none; */
+#baritoneDataContainer{
+    top: 95px;
 }
 
-#baritoneData ul li ul li{
-	position: relative;
-	left: 30px;
-	width: 120px;
+
+#baritoneTest{
+	display: inline-block;
 }
 
 .baritoneHover{
@@ -56,28 +85,16 @@
 	font-family: 'Drugulin CLM', serif;
 	position: relative;
 	top: 62px;
-	left: 125px;
 }
 
 #tenorImg{
 	position: relative;
-	padding-left: 80px;
 	top: 55px;
 	cursor: pointer;
 }
 
-#tenorData{
-	font-family: 'Nehama', serif;
-	font-size: 16px;
-	position: absolute;
-	right: 60px;
-	top: 130px;
-}
-
-#tenorData ul li ul li{
-	position: relative;
-	left: 30px;
-	width: 120px;
+#tenorDataContainer{
+    top: 130px;
 }
 
 .tenorHover{
@@ -94,28 +111,16 @@
 	font-family: 'Drugulin CLM', serif;
 	position: relative;
 	top: 85px;
-	left: 100px;
 }
 
 #concertImg{
 	position: relative;
-	padding-left: 80px;
 	top: 84px;
 	cursor: pointer;
 }
 
-#concertData{
-	font-family: 'Nehama', serif;
-	font-size: 16px;
-	position: absolute;
-	right: 40px;
-	top: 154px;
-}
-
-#concertData ul li ul li{
-	position: relative;
-	left: 30px;
-	width: 120px;
+#concertDataContainer{
+    top: 152px;
 }
 
 .concertHover{
@@ -132,28 +137,16 @@
 	font-family: 'Drugulin CLM', serif;
 	position: relative;
 	top: 128px;
-	left: 105px;
 }
 
 #sopranoImg{
 	position: relative;
-	padding-left: 80px;
 	top: 126px;
 	cursor: pointer;
 }
 
-#sopranoData{
-	font-family: 'Nehama', serif;
-	font-size: 16px;
-	position: absolute;
-	right: 30px;
-	top: 200px;
-}
-
-#sopranoData ul li ul li{
-	position: relative;
-	left: 30px;
-	width: 120px;
+#sopranoDataContainer{
+    top: 200px;
 }
 
 .sopranoHover{
@@ -161,3 +154,36 @@
 }
 
 
+/*--------------------------------------------------------------------------------------*/
+
+
+@media screen and (max-width: 1080px){
+	#ukeContainer{
+		height: 125vh;
+	}
+	.uke{
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 570px){
+	#ukeContainer{
+		height: 240vh;
+	}
+	.uke{
+		width: 100%;
+	}
+	.ukeData{
+		transform: translateX(-10vw);
+	}
+
+	#baritone, #tenor, #concert, #soprano{
+		height: 100px;
+	}
+}
+
+@media screen and (max-width: 420px){
+	.ukeData{
+		transform: translateX(-13vw);
+	}
+}

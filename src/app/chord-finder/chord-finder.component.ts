@@ -93,10 +93,10 @@ export class ChordFinderComponent implements OnInit {
 		//Letters denotes the notes on each string. number denotes the the height in pixels a green dot should be in order to be placed on its string.
 		//* '0' means an 'open string', in this case the green dot doesn't show.
 		//** The height slightly changes along strings1+string4 because they have a small angel.   
-		let string1 = [['A', 0], ['Bb', 123], ['B', 123], ['C', 123], ['C#', 123], ['D', 125], ['D#', 125], ['E', 127], ['F', 127], ['F#', 128], ['G', 128], ['G#', 129]];
-		let string2 = [['E', 0], ['F', 93], ['F#', 93], ['G', 93], ['G#', 93], ['A', 93], ['Bb', 93], ['B', 93], ['C', 93], ['C#', 93], ['D', 93], ['D#', 93]];
-		let string3 = [['C', 0], ['C#', 63], ['D', 63], ['D#', 63], ['E', 63], ['F', 63], ['F#', 63], ['G', 63], ['G#', 63], ['A', 63], ['Bb', 63], ['B', 63]];
-		let string4 = [['G', 0], ['G#', 31], ['A', 31], ['Bb', 31], ['B', 31], ['C', 29], ['C#', 29], ['D', 27], ['D#', 27], ['E', 26], ['F', 26], ['F#', 25]];
+		let string1 = [['A', 0], ['Bb', 67.6], ['B', 67.6], ['C', 67.6], ['C#', 69], ['D', 69], ['D#', 69], ['E', 71], ['F', 71], ['F#', 71], ['G', 71], ['G#', 71]];
+		let string2 = [['E', 0], ['F', 49.6], ['F#', 49.6], ['G', 49.6], ['G#', 49.6], ['A', 49.6], ['Bb', 49.6], ['B', 49.6], ['C', 49.6], ['C#', 49.6], ['D', 49.6], ['D#', 49.6]];
+		let string3 = [['C', 0], ['C#', 33.6], ['D', 33.6], ['D#', 33.6], ['E', 33.6], ['F', 33.6], ['F#', 33.6], ['G', 33.6], ['G#', 33.6], ['A', 33.6], ['Bb', 33.6], ['B', 33.6]];
+		let string4 = [['G', 0], ['G#', 17], ['A', 17], ['Bb', 17], ['B', 14.7], ['C', 14.7], ['C#', 14.7], ['D', 13.5], ['D#', 13.5], ['E', 13.5], ['F', 12.5], ['F#', 12.5]];
 
 		let chord1 = (<HTMLInputElement>document.getElementById('chordSelect1')).value;
 		let chord2 = (<HTMLInputElement>document.getElementById('chordSelect2')).value;
@@ -201,8 +201,8 @@ export class ChordFinderComponent implements OnInit {
 	placeDot(s, cp, d, p) {
 
 		let j = 0;
-		//The intervals variable contains the horizontal position (in px) of each note along the string 
-		let intervals = [0, 331, 387, 439, 489, 536, 580, 621, 661, 698, 734, 768];
+		//The intervals variable contains the horizontal position (in percentage) of each note along the string 
+		let intervals = [0, 33, 38.5, 43.6, 48.5, 53.15, 57.6, 61.65, 65.6, 69.3, 72.85, 76.2];
 
 		for (let i = 0; i < p; i++) {
 			while (s[j][0] != cp[0] && s[j][0] != cp[1] && s[j][0] != cp[2] && s[j][0] != cp[3]) {
@@ -211,8 +211,8 @@ export class ChordFinderComponent implements OnInit {
 			if (j != 0) {
 
 				d.style.display = 'block';
-				d.style.left = intervals[j] + 'px';
-				d.style.bottom = s[j][1] + 'px';
+				d.style.left = intervals[j] + '%';
+				d.style.bottom = s[j][1] + '%';
 				d.style.opacity = 1.0;
 
 			} else {
@@ -234,10 +234,10 @@ export class ChordFinderComponent implements OnInit {
 
 	playChord() {
 
-		let string1 = [['A', 0], ['Bb', 331], ['B', 387], ['C2', 439], ['C#2', 489], ['D2', 536], ['D#2', 580], ['E2', 621], ['F2', 661], ['F#2', 698], ['G2', 734], ['G#2', 768]];
-		let string2 = [['E', 0], ['F', 331], ['F#', 387], ['G', 439], ['G#', 489], ['A', 536], ['Bb', 580], ['B', 621], ['C2', 661], ['C#2', 698], ['D2', 734], ['D#2', 768]];
-		let string3 = [['C', 0], ['C#', 331], ['D', 387], ['D#', 439], ['E', 489], ['F', 536], ['F#', 580], ['G', 621], ['G#', 661], ['A', 698], ['Bb', 734], ['B', 768]];
-		let string4 = [['G', 0], ['G#', 331], ['A', 387], ['Bb', 439], ['B', 489], ['C2', 536], ['C#2', 580], ['D2', 621], ['D#2', 661], ['E2', 698], ['F2', 734], ['F#2', 768]];
+		let string1 = [['A', 0], ['Bb', 33], ['B', 38.5], ['C2', 43.6], ['C#2', 48.5], ['D2', 53.15], ['D#2', 57.6], ['E2', 61.65], ['F2', 65.6], ['F#2', 69.3], ['G2', 72.85], ['G#2', 76.2]];
+		let string2 = [['E', 0], ['F', 33], ['F#', 38.5], ['G', 43.6], ['G#', 48.5], ['A', 53.15], ['Bb', 57.6], ['B', 61.65], ['C2', 65.6], ['C#2', 69.3], ['D2', 72.85], ['D#2', 76.2]];
+		let string3 = [['C', 0], ['C#', 33], ['D', 38.5], ['D#', 43.6], ['E', 48.5], ['F', 53.15], ['F#', 57.6], ['G', 61.65], ['G#', 65.6], ['A', 69.3], ['Bb', 72.85], ['B', 76.2]];
+		let string4 = [['G', 0], ['G#', 33], ['A', 38.5], ['Bb', 43.6], ['B', 48.5], ['C2', 53.15], ['C#2', 57.6], ['D2', 61.65], ['D#2', 65.6], ['E2', 69.3], ['F2', 72.85], ['F#2', 76.2]];
 		let stringArr = [string1, string2, string3, string4];
 
 		let dot1Position = document.getElementById('greenDot1').style.left;
@@ -245,7 +245,8 @@ export class ChordFinderComponent implements OnInit {
 		let dot3Position = document.getElementById('greenDot3').style.left;
 		let dot4Position = document.getElementById('greenDot4').style.left;
 
-		let dotArr = [Number(dot1Position.slice(0, 3)), Number(dot2Position.slice(0, 3)), Number(dot3Position.slice(0, 3)), Number(dot4Position.slice(0, 3))];
+		let dotArr = [Number(dot1Position.slice(0, (dot1Position.length - 1))), Number(dot2Position.slice(0, (dot2Position.length - 1))), Number(dot3Position.slice(0, (dot3Position.length - 1))), Number(dot4Position.slice(0, (dot4Position.length - 1)))];
+
 
 		for (let i = 0; i < 4; i++) {
 			if (Number(document.getElementById('greenDot' + (i + 1)).style.opacity) == 0.0) {
@@ -271,6 +272,8 @@ export class ChordFinderComponent implements OnInit {
 			stringAudio[i] = document.getElementById('uke' + stringArr[i][j][0]);
 
 		}
+
+
 
 		return stringAudio[0].play(), stringAudio[1].play(), stringAudio[2].play(), stringAudio[3].play();
 

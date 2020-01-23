@@ -1,18 +1,16 @@
 <div class="chordFinder" dir="rtl">
 
   <div class="chooseChord">
-    <h1>בחר/י אקורד נשמה:</h1>
+    <h1>בחר/י אקורד:</h1>
   </div>
 
   <br>
 
   <div class="chordIndex">
 
-    <br>
-
     <form>
 
-      <label>איזה אקורד עושה לך את זה?</label>
+      <label>שם האקורד</label>
 
       <select id="chordSelect2" (click)="resetPosition(); resetDots(); displayImg()">
         <option value="-">-</option>
@@ -43,7 +41,7 @@
 
     <form>
 
-      <label>תנוחה אהובה?</label>
+      <label>פוזיציה</label>
 
       <select id="position" (click)="displayImg()">
         <option value="1">1</option>
@@ -58,23 +56,25 @@
   </div>
 
 
+  <div id="chordContainer">
+    <div id="chordType">
 
-  <div id="chordType">
+      <!--Hidden fingering dots:-->
 
-    <!--Hidden fingering dots:-->
-
-    <img src="../../assets/img/green dot.jpg" alt="not working" id="greenDot1">
-
-
-    <img src="../../assets/img/green dot.jpg" alt="not working" id="greenDot2">
+      <img src="../../assets/img/green dot.jpg" alt="not working" id="greenDot1" class="greenDot">
 
 
-    <img src="../../assets/img/green dot.jpg" alt="not working" id="greenDot3">
+      <img src="../../assets/img/green dot.jpg" alt="not working" id="greenDot2" class="greenDot">
 
 
-    <img src="../../assets/img/green dot.jpg" alt="not working" id="greenDot4">
+      <img src="../../assets/img/green dot.jpg" alt="not working" id="greenDot3" class="greenDot">
 
+
+      <img src="../../assets/img/green dot.jpg" alt="not working" id="greenDot4" class="greenDot">
+
+    </div>
   </div>
+
 
 
 

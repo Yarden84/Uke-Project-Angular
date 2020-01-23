@@ -1,34 +1,88 @@
 <div class="Jumbatron text-center">
-	<div class="container">
-
-		<h1><a routerLink="/mainpage" class="headline">Jewkulele.com</a></h1>
-		<p><a routerLink="/mainpage" class="headline">The Hebrew Ukulele Site</a></p>
-
+	<div id="circle1">
+		<a routerLink="/mainpage" class="headline">
+			<div id="circle2">
+				<h1>Jewkulele.com</h1>
+				<p>The Hebrew Ukulele Site</p>
+			</div>
+		</a>
 	</div>
 </div>
 
-<nav class="navbar navbar-inverse navbar-static-top">
-	<div class="container">
-		<div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav nav-tabs">
-				<li routerLinkActive="active"><a routerLink="/about" routerLinkActive="active">אודות<span routerLinkActive="active"></span></a></li>
-				<li routerLinkActive="active"><a routerLink="/links" routerLinkActive="active">קישורים<span routerLinkActive="active"></span></a></li>
-				<li routerLinkActive="active"><a routerLink="/gallery" routerLinkActive="active">גלריה<span routerLinkActive="active"></span></a></li>
-				<li routerLinkActive="active"><a routerLink="/tuner" routerLinkActive="active">טיונר<span routerLinkActive="active"></span></a></li>
-				<li routerLinkActive="active"><a routerLink="/chordfinder" routerLinkActive="active">מנוע חיפוש אקורדים<span
-						 routerLinkActive="active"></span></a></li>
-				<li routerLinkActive="active"><a routerLink="/musicians" routerLinkActive="active">נגנים מפורסמים<span
-						 routerLinkActive="active"></span></a></li>
-				<li routerLinkActive="active"><a routerLink="/ukerelatives" routerLinkActive="active">קרובי משפחה<span
-						 routerLinkActive="active"></span></a></li>
-				<li routerLinkActive="active"><a routerLink="/uketypes" routerLinkActive="active">הכלאות<span routerLinkActive="active"></span></a></li>
-				<li routerLinkActive="active"><a routerLink="/ukesizes" routerLinkActive="active">גדלי היוקוללה<span
-						 routerLinkActive="active"></span></a></li>
-				<li routerLinkActive="active"><a routerLink="/mainpage" routerLinkActive="active">דף הבית</a></li>
-			</ul>
+<div id="navContainer">
+	<nav id="navbar">
+		<div class="navItem" routerLinkActive="active"><a routerLink="/about" routerLinkActive="active">אודות<span
+					routerLinkActive="active"></span></a></div>
+		<div class="navItem" routerLinkActive="active"><a routerLink="/links" routerLinkActive="active">קישורים<span
+					routerLinkActive="active"></span></a></div>
+		<div class="navItem" routerLinkActive="active"><a routerLink="/gallery" routerLinkActive="active">גלריה<span
+					routerLinkActive="active"></span></a></div>
+		<div class="navItem" routerLinkActive="active"><a routerLink="/tuner" routerLinkActive="active">טיונר<span
+					routerLinkActive="active"></span></a></div>
+		<div class="navItem" routerLinkActive="active"><a routerLink="/chordfinder" routerLinkActive="active">מנוע חיפוש
+				אקורדים<span routerLinkActive="active"></span></a></div>
+		<div class="navItem" routerLinkActive="active"><a routerLink="/musicians" routerLinkActive="active">נגנים
+				מפורסמים<span routerLinkActive="active"></span></a></div>
+		<div class="navItem" routerLinkActive="active"><a routerLink="/ukerelatives" routerLinkActive="active">קרובי
+				משפחה<span routerLinkActive="active"></span></a></div>
+		<div class="navItem" routerLinkActive="active"><a routerLink="/uketypes" routerLinkActive="active">הכלאות<span
+					routerLinkActive="active"></span></a></div>
+		<div class="navItem" routerLinkActive="active"><a routerLink="/ukesizes" routerLinkActive="active">גדלי
+				היוקוללה<span routerLinkActive="active"></span></a></div>
+		<div class="navItem" routerLinkActive="active"><a routerLink="/mainpage" routerLinkActive="active">דף
+				הבית</a>
+		</div>
+	</nav>
+</div>
+
+<div id="navContainerMob">
+	<div id="hamburgerContainer">
+		<div id="hamburger" (click)="toggleNav()">
+			<div id="lines">
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+			</div>
 		</div>
 	</div>
-</nav>
+
+	<nav id="navbar" [@navbarTog]='state'>
+		<div class="navItem" routerLinkActive="active"><a routerLink="/about" routerLinkActive="active">אודות<span
+					routerLinkActive="active"></span></a></div>
+		<div class="navItem" routerLinkActive="active"><a routerLink="/links" routerLinkActive="active">קישורים<span
+					routerLinkActive="active"></span></a></div>
+		<div class="navItem" routerLinkActive="active"><a routerLink="/gallery" routerLinkActive="active">גלריה<span
+					routerLinkActive="active"></span></a></div>
+		<div class="navItem" routerLinkActive="active"><a routerLink="/tuner" routerLinkActive="active">טיונר<span
+					routerLinkActive="active"></span></a></div>
+		<div class="navItem" routerLinkActive="active"><a routerLink="/chordfinder" routerLinkActive="active">מנוע חיפוש
+				אקורדים<span routerLinkActive="active"></span></a></div>
+		<div class="navItem" routerLinkActive="active"><a routerLink="/musicians" routerLinkActive="active">נגנים
+				מפורסמים<span routerLinkActive="active"></span></a></div>
+		<div class="navItem" routerLinkActive="active"><a routerLink="/ukerelatives" routerLinkActive="active">קרובי
+				משפחה<span routerLinkActive="active"></span></a></div>
+		<div class="navItem" routerLinkActive="active"><a routerLink="/uketypes" routerLinkActive="active">הכלאות<span
+					routerLinkActive="active"></span></a></div>
+		<div class="navItem" routerLinkActive="active"><a routerLink="/ukesizes" routerLinkActive="active">גדלי
+				היוקוללה<span routerLinkActive="active"></span></a></div>
+		<div class="navItem" routerLinkActive="active"><a routerLink="/mainpage" routerLinkActive="active">דף הבית</a>
+		</div>
+	</nav>
+</div>
+
 
 
 <router-outlet></router-outlet>
+
+<footer>
+	<div id="footerNav">
+		<a class="footerItem" routerLink="/mainpage" routerLinkActive="active">דף הבית</a>
+		<span class="footerItem"></span>
+		<a class="footerItem" routerLink="/gallery" routerLinkActive="active">גלריה<span
+				routerLinkActive="active"></span></a>
+		<span class="footerItem"></span>
+		<a class="footerItem" routerLink="/about" routerLinkActive="active">אודות<span
+				routerLinkActive="active"></span></a>
+	</div>
+	<p></p>
+</footer>

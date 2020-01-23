@@ -2,14 +2,19 @@
 
 #BG{
     background-color: #e6e6e6;
+    display: flex;
+    flex-direction: column;
 }
 
-/*----------------------------------------------------*/
+.ukeTypeContainer{
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
+    width: 80%;
+    max-width: 1500px;
+}
 
-/*Banjolele*/
-
-
-#banjoleleH{
+.ukeHeader{
     font-family: 'Amatic SC', cursive;
     position: relative;
     color: white;
@@ -18,184 +23,45 @@
     text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
 }
 
-#banjolele{
-    position: relative;
-    top: 10px;
-    width: 220px;
-    height: 200px;
-    margin-right: 20px;
-    border: 1px solid black;
+.ukeData{
+    display: flex;
+    align-items: flex-start;
 }
 
-#bjlImg{
-    height: 170px;
-    width: 170px;
-}
-
-#about1{
+.about{
+    height: 220px;
     padding-top: 20px;
     padding-left: 40px;
     text-align: justify;
     line-height: 2;
 }
 
-/*----------------------------------------------*/
-/*testing ng carousel*/
-
-#carousel1{
-    padding-left: 40px;
+.UkeBtns{
+    margin-top: 50px;
 }
 
-.items img{
-    width: 200px;
-    height: 200px;
-} 
-
-/*---------------------------------------------*/
-
-#vid1{
-    padding-left: 40px;
-}
-
-#details1{
-    height: 245px;
-}
-
-/*-----------------------------------------------------------------*/
-/*Harp Ukulele*/
-
-
-#harpUkeH{
-    font-family: 'Amatic SC', cursive;
-    position: relative;
-    color: white;
-    top: 20px;
-    font-size: 50px;
-    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
-}
-
-#harpUkulele{
+.ukeImg{
     width: 220px;
     height: 200px;
-    margin-right: 20px;
+    margin: 10px 50px;
     border: 1px solid black;
+    border-radius: 50%;
 }
 
 
-#uhrpImg{
-    height: 170px;
-    width: 170px;
+
+
+.vids{
+    display: flex;
+    justify-content: space-between;
+    width: 55vw;
 }
 
-#about2{
-    padding-top: 20px;
-    padding-left: 40px;
-    text-align: justify;
-    line-height: 2;
+iframe{
+    width: 25vw;
+    height: 215px;
 }
 
-#carousel2{
-    padding-left: 40px;
-
-}
-
-#vid2{
-    padding-left: 40px;
-}
-
-#details2{
-    height: 245px;
-}
-
-/*-----------------------------------------------------------------*/
-/*Electric Ukulele*/
-
-#eleUkeH{
-    font-family: 'Amatic SC', cursive;
-    position: relative;
-    color: white;
-    top: 20px;
-    font-size: 50px;
-    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
-}
-
-#electricUkulele{
-    width: 220px;
-    height: 200px;
-    margin-right: 20px;
-    border: 1px solid black;
-}
-
-#eukeImg{
-    height: 170px;
-    width: 170px;
-}
-
-#about3{
-    padding-top: 20px;
-    padding-left: 40px;
-    text-align: justify;
-    line-height: 2;
-}
-
-#carousel3{
-    padding-left: 40px;
-
-}
-
-#vid3{
-    padding-left: 40px;
-}
-
-#details3{
-    height: 245px;
-}
-
-/*-----------------------------------------------------------------*/
-/*UBass*/
-
-#uBassH{
-    font-family: 'Amatic SC', cursive;
-    position: relative;
-    color: white;
-    top: 20px;
-    font-size: 50px;
-    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
-}
-
-#uBass{
-    width: 220px;
-    height: 200px;
-    margin-right: 20px;
-    border: 1px solid black;
-}
-
-#uBassImg{
-    height: 170px;
-    width: 170px;
-}
-
-#about4{
-    padding-top: 20px;
-    padding-left: 40px;
-    text-align: justify;
-    line-height: 2;
-}
-
-#carousel4{
-    padding-left: 40px;
-
-}
-
-#vid4{
-    padding-left: 40px;
-}
-
-#details4{
-    height: 245px;
-}
-
-/*-----------------------------------------------------------------*/
 
 button{
     margin-left: 5px;
@@ -206,9 +72,12 @@ button:focus, button:link{
     outline: 0;
 }
 
-/*-----------------------------------------------------------------*/
 
 /*ng carousel*/
+
+#carousel{
+    width: 50vw !important;
+}
 
 #left{
     position: relative;
@@ -219,11 +88,11 @@ button:focus, button:link{
     left: 20px;
 }
 .items img{
+    width: 220px;
+    height: 220px;
     padding: 10px 10px;
 }
 
-
-/*-----------------------------------------------------------------*/
 
 
 .divider1{
@@ -246,4 +115,112 @@ button:focus, button:link{
     border-bottom: #00264d solid 2px;
     margin-top: 10px;
     margin-right: 100px;
+}
+
+
+
+@media only screen and (max-width: 1250px) {
+    .ukeTypeContainer{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1005px) {
+    .dataWithBtns{
+        display: flex;
+        flex-direction: row-reverse;
+        height: 320px;
+    }
+
+    .ukeImg{
+        margin: 10px 15px;
+    }
+
+    button{
+        width: 5em;
+    }
+
+    .about{
+        padding: 0 3vw;
+    }
+
+    #carousel, .vids{
+        width: 65vw !important;
+    }
+
+    .vids{
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (max-width: 985px) {
+
+    .ukeImgContainer{
+        display: none;
+    }
+
+    .dataWithBtns{
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .UkeBtns{
+        margin-top: 1vw;
+        text-align: center;
+    }
+
+    button{
+        margin: 2vw 1vw;
+    }
+
+    #carousel, .vids, .about{
+        width: 98vw !important;
+    }
+
+    iframe{
+        width: 40vw;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    .ukeHeader{
+        font-size: 10vw;
+    }
+
+    .dataWithBtns{
+        height: 115vw;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .about{
+        height: 100vw;
+        font-size: 3.3vw;
+        padding: 0 7vw;
+    }
+
+    #carousel{
+        width: 93vw !important;
+        margin-top: 20vw; 
+    }
+
+    .items img{
+        width: 50vw;
+        height: 50vw;
+    }
+
+    .vids{
+        flex-direction: column;
+        width: 100% !important;
+    }
+
+    iframe{
+        width: 90vw;
+        height: 43vw;
+        display: block;
+        margin: 2vw auto;
+    }
+
 }

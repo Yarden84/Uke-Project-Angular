@@ -4,18 +4,19 @@
 	src: url("../../assets/fonts/nehama/Nehama.ttf")
 }
 
-.btn.btn-success{
-	border-radius: 25px;
-	height: 30px;
-	width: 30px;
+.btn-success{
+	display: flex;
+	position: absolute;
+	border-radius: 2vw;
+	height: 3vw;
+	width: 3vw;
 	border: 1px solid black;
 	outline: none !important;
 }
 
-.btn.btn-success p{
-	position: relative;
-	bottom: 2px;
-	right: 3px;
+.btn-success p{
+	margin: auto;
+	font-size: 1.7vw;
 }
 
 
@@ -29,16 +30,6 @@
 	position: relative;
 }
 
-@media screen and (min-width: 1500px){
-	#tuner{
-		height: 82vh;
-	}
-
-	#ukeNeck{
-		margin-top: 20vh;
-	}
-}
-
 #headline{
 	font-family: 'Nehama', serif;
 	background-color: rgb(148,84,46);
@@ -50,40 +41,40 @@
 	
 }
 
+#ukeNeckContainer{
+	display: flex;
+	height: 50vw;
+}
+
 #ukeNeck{
 	background-image: url("../../assets/img/UkuleleNeck.jpg");
+	background-size: contain;
 	background-repeat: no-repeat;
-	height: 182px;
-	width: 886px;
+	height: 33.4%;
+    width: 95%;
 	margin: auto;
-	margin-top: 10vh;
 	position: relative;
-	/* border: 1px solid black; */
 }
 
 #btnG{
-	position: absolute;
-    left: 204px;
-    top: 117px;
+    left: 18.7vw;
+    top: 11vw;
 }
 
 
 #btnC{
-	position: absolute;
-    left: 103px;
-    top: 112px;
+	left: 9.4vw;
+    top: 11vw;
 }
 
 #btnE{
-	position: absolute;
-    left: 103px;
-    top: 36px;
+    left: 9.4vw;
+    top: 3vw;
 }
 
 #btnA{
-	position: absolute;
-    left: 204px;
-    top: 36px;
+	left: 18.7vw;
+    top: 3vw;
 }
 
 #bottomLine{
@@ -93,6 +84,171 @@
 	width: 100%;
 	position: absolute;
 	bottom: 0;
+}
+
+
+@media screen and (min-width: 1500px){
+	#tuner{
+		height: 82vh;
+	}
+
+	#ukeNeck{
+		margin-top: 20vh;
+	}
+}
+
+@media screen and (min-width: 1300px){
+	#ukeNeckContainer{
+		height: 633px;
+	}
+
+	#ukeNeck{
+		width: 1183px;
+	}
+
+	.btn-success{
+		border-radius: 25px;
+		height: 40px;
+		width: 40px;
+	}
+
+	.btn-success p{
+		font-size: 20px;
+	}
+
+	#btnG{
+		left: 239px;
+		top: 136px;
+	}
+	
+	
+	#btnC{
+		left: 116px;
+		top: 136px;
+	}
+	
+	#btnE{
+		left: 116px;
+		top: 36px;
+	}
+	
+	#btnA{
+		left: 239px;
+		top: 36px;
+	}
+}
+
+@media screen and (max-width: 1026px){
+	#headline{
+		display: flex;
+		height: 12vw;
+		padding: 0;
+		margin: 0;
+	}
+
+	#headline h1{
+		font-size: 5vw;
+		display: inline;
+		margin: auto;
+	}
+
+	#bottomLine{
+		height: 12vw;
+	}
+
+	#ukeNeck{
+		background-size: 160%;
+		height: 100%;
+		margin: auto;
+		margin-top: 10vw;
+	}
+
+	.btn-success{
+		border-radius: 3vw;
+		height: 5vw;
+		width: 5vw;
+	}
+
+	#btnG{
+		left: 29.7vw;
+		top: 17.1vw;
+	}
+	
+	
+	#btnC{
+		left: 14.4vw;
+    	top: 17.1vw;
+	}
+	
+	#btnE{
+		left: 14.4vw;
+    	top: 5vw;
+	}
+	
+	#btnA{
+		left: 29.7vw;
+    	top: 5vw;
+	}
+}
+
+
+@media screen and (max-width: 960px){
+	#tuner{
+		height: 80vh;
+	}
+}
+
+@media screen and (max-width: 500px){
+	#headline{
+		height: 22vw;
+		text-align: center;
+	}
+
+	#headline h1{
+		font-size: 8vw;
+	}
+
+	#bottomLine{
+		height: 22vw;
+	}
+
+	#ukeNeckContainer{
+		margin-top: 10vw;
+	}
+
+	#ukeNeck{
+		background-size: 240%;
+	}
+
+	.btn-success{
+		border-radius: 5vw;
+		height: 7vw;
+		width: 7vw;
+	}
+
+	.btn-success p{
+		font-size: 3.7vw;
+	}
+
+	#btnG{
+		left: 44.7vw;
+		top: 24.8vw;
+	}
+	
+	#btnC{
+		left: 22.4vw;
+		top: 24.8vw;
+	}
+	
+	#btnE{
+		left: 22.4vw;
+		top: 8vw;
+	}
+	
+	#btnA{
+		left: 44.7vw;
+    	top: 8vw;
+	}
 }
 
 

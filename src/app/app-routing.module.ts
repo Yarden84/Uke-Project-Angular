@@ -15,16 +15,16 @@ import { UkeSizesComponent } from './uke-sizes/uke-sizes.component';
 import { UkeTypesComponent } from './uke-types/uke-types.component';
 
 const routes: Routes = [
-  {path: 'about', component: AboutComponent},
-  {path: 'chordfinder', component: ChordFinderComponent},
-  {path: 'gallery', component: GalleryComponent},
-  {path: 'links', component: LinksComponent},
-  {path: 'mainpage', component: MainPageComponent}, 
-  {path: 'musicians', component: MusiciansComponent},
-  {path: 'tuner', component: TunerComponent},
-  {path: 'ukerelatives', component: UkeRelativesComponent},
-  {path: 'ukesizes', component: UkeSizesComponent},
-  {path: 'uketypes', component: UkeTypesComponent},
+  { path: 'about', component: AboutComponent },
+  { path: 'chordfinder', component: ChordFinderComponent },
+  { path: 'gallery', component: GalleryComponent },
+  { path: 'links', component: LinksComponent },
+  { path: 'mainpage', component: MainPageComponent },
+  { path: 'musicians', component: MusiciansComponent },
+  { path: 'tuner', component: TunerComponent },
+  { path: 'ukerelatives', component: UkeRelativesComponent },
+  { path: 'ukesizes', component: UkeSizesComponent },
+  { path: 'uketypes', component: UkeTypesComponent },
   { path: '**', redirectTo: '/mainpage', pathMatch: 'full' },
 ];
 

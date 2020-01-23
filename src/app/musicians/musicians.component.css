@@ -2,174 +2,286 @@
 	overflow-x: hidden;
 }
 
-.bg-warning {
-    padding-top: 40px;
+.BG{
+	display: flex;
+	height: 100vh;
 }
 
-/*-------------------------------------------------------------------------*/
-
-#img-1{
+.arrow{
+	height: 35%;
+	margin: auto;
 	cursor: pointer;
-	margin-top: 20px;
-	position: relative;
-	margin-bottom: -100px;
 }
 
-.img1H{
+#arrowL{
+	opacity: 0.3;
+}
+
+.arrowTest{
+	height: 35%;
+	margin: auto;
+	cursor: pointer;
+	background-image: url("../../assets/img/arrowR.png");
+	background-size: contain;
+}
+
+.artContainer{
+	display: flex;
+	margin: auto;
+}
+
+.artist{
+	margin: auto;
+	flex: 0 0 100%;
+	position: relative;
+}
+
+.artImg{
+	display: block;
+	height: 400px;
+	margin: auto;
+	cursor: pointer;
+	/* margin-top: 50px; */
+	border-radius: 50%;
 	opacity: 0.6;
 }
 
-#read1{
-	cursor: pointer;
+.artImg:hover{
+	opacity: 1;
 }
 
-#textImg1{
-	cursor: pointer;
-	font-family: 'Drugulin CLM', serif;
-	position: relative;
-	text-align: center;	
-	bottom: 115px;
-	font-size: 75px;		
-	pointer-events: none;
-}
-
-#p-1{
-	margin-left: 20px;
-	width: 800px;
-	text-align: justify;
-}
-
-#p-1-continue{
-	position: relative;
-	width: 800px;
-	left: 20px;
-	bottom: 200px;
-	text-align: justify;
-}
-/*-------------------------------------------------------------------------*/
-
-#img-2{
-	cursor: pointer;
-	margin-top: 20px;
-	position: relative;
-	margin-bottom: -100px;
-}
-
-.img2H{
-	opacity: 0.6;
-}
-
-#read2{
-	cursor: pointer;
-}
-
-#textImg2{
+.name{
 	cursor: pointer;
 	font-family: 'Drugulin CLM', serif;
-	position: relative;
-	text-align: center;
-	bottom: 115px;
-	font-size: 72px;	
-
+	font-size: 85px;
+	white-space: nowrap;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);		
 	pointer-events: none;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	margin: 0;
+	overflow: hidden;
 }
 
 
-#p-2{
-	margin-left: 20px;
-	width: 800px;
-	text-align: justify;
+#aboutContainer{
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+    right: 0;
+	background-color: rgba(0, 0, 0, 0.8);
+	display: flex;
+	z-index: 2;
 }
 
-#p-2-continue{
+#about{
+	/* height: 800px; */
+	height: 0px;
+	width: 90%;
+	background-color: #282828;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #2eb82e;
 	position: relative;
-	width: 800px;
-	left: 20px;
-	bottom: 200px;
-	text-align: justify;
+	overflow-y: hidden;
 }
 
-/*-------------------------------------------------------------------------*/
-
-#img-3{
+#xBtn{
+	display: none;
 	cursor: pointer;
-	margin-top: 20px;
-	position: relative;
-	margin-bottom: -100px;
+	height: 30px;
+	width: 30px;
+	position: fixed;
+    top: 7%;
+    right: 7%;
+	border: 1px solid white;
+    border-radius: 15%;
 }
 
-.img3H{
-	opacity: 0.6;
+#xBtn:hover{
+	background-color: rgba(255, 15, 15, 0.6);
 }
 
-#read3{
-	cursor: pointer;
+.line{
+	height: 2px;
+	width: 26px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	position: absolute;
+    top: 50%;
+    left: 50%;
 }
 
-#textImg3{
-	cursor: pointer;
+#line1{
+	transform: translate(-50%, -50%) rotate(45deg);
+}
+
+#line2{
+	transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.aboutImg{
+	height: 54%;
+	min-height: 400px;
+    width: 54%;
+	margin: 0 auto;
+	flex-shrink: 0;
+}
+
+.aboutName{
 	font-family: 'Drugulin CLM', serif;
-	position: relative;
-	text-align: center;
-	bottom: 115px;
-	font-size: 75px;	
-
-	pointer-events: none;
+    font-size: 90px;
+	color: white;
+	margin: 20px auto;
+	flex-shrink: 0;
 }
 
 
-#p-3{
-	margin-left: 20px;
-	width: 800px;
+#about p{
+	width: 70%;
+	font-size: 18px;
+	color: white;
 	text-align: justify;
+	margin: auto;
+	margin-top: 0;
+	flex-shrink: 0;
 }
 
-#p-3-continue{
-	position: relative;
-	width: 800px;
-	left: 20px;
-	bottom: 200px;
-	text-align: justify;
+.abstract{
+	font-size: 20px;
 }
 
-/*-------------------------------------------------------------------------*/
-
-#img-4{
-	cursor: pointer;
-	margin-top: 20px;
-	position: relative;
-	margin-bottom: -100px;
+.fullText{
+	overflow-y: hidden;
 }
 
-.img4H{
-	opacity: 0.6;
-}
-
-#read4{
+.toggleText{
+	display: inline;
+	font-size: 20px;
+	font-weight: bold;
+	color: #2eb82e;
 	cursor: pointer;
 }
 
-#textImg4{
-	cursor: pointer;
-	font-family: 'Drugulin CLM', serif;
-	position: relative;
-	text-align: center;
-	bottom: 115px;
-	font-size: 75px;	
-
-	pointer-events: none;
+iframe{
+	width: 90vw;
+	height: 43vw;
+	display: block;
+	margin: 2vw auto;
 }
 
-#p-4{
-	margin-left: 20px;
-	width: 800px;
-	text-align: justify;
+
+
+@media screen and (min-width: 1500px){
+	.aboutImg{
+		height: initial; 
+    	min-height: initial;
+    	width: 45%;
+	}
 }
 
-#p-4-continue{
-	position: relative;
-	width: 800px;
-	left: 20px;
-	bottom: 200px;
-	text-align: justify;
+
+@media screen and (max-width: 1026px){
+
+	.BG{
+		height: 80vh;
+	}
+
+	.artImg{
+		height: 40vw;
+	}
+
+	.name{
+		font-size: 9vw;
+	}
+
+	.arrow{
+		height: 30vw;
+	}
+
+	.aboutImg{
+		height: initial; 
+    	min-height: initial;
+    	width: 64%;
+	}
+
+	.aboutName{
+		font-size: 9vw;
+		overflow: hidden;
+	}
+
+	#about p{
+		font-size: 2vw;
+	}
+
+	.toggleText{
+		font-size: 2.2vw;
+	}
+
+	#xBtn {
+		top: 7%;
+		left: auto;
+		right: 10%;
+	}
+
+}
+
+
+@media screen and (max-width: 650px){
+
+	.aboutName{
+		font-size: 10vw;
+	}
+	
+	#about p{
+		font-size: 3vw;
+	}
+
+	.toggleText{
+		font-size: 3.2vw;
+	}
+
+}
+
+@media screen and (max-width: 530px){
+
+	#xBtn {
+		height: 25px;
+		width: 25px;
+		/* left: auto;
+		right: 10%; */
+	}
+
+	.line{
+		width: 22px;
+	}
+
+}
+
+@media screen and (max-width: 400px){
+
+	#xBtn {
+		height: 25px;
+		width: 25px;
+		left: auto;
+		right: 7%;
+	}
+
+	.aboutName{
+		font-size: 12vw;
+	}
+	
+	#about p{
+		font-size: 3.8vw;
+	}
+
+	.toggleText{
+		font-size: 4vw;
+	}
+
 }

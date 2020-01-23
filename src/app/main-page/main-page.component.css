@@ -3,38 +3,76 @@
   src: url("../../assets/fonts/nehama/Nehama.ttf");
 }
 
-/*Blockquotes*/
+
 
 #quotes {
   background-color: rgb(148, 84, 46);
   height: 150px;
   border-bottom: 2px solid #761c19;
-  padding-top: 25px;
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.row blockquote {
+.quote{
   color: white;
   background-color: #ff9900;
   border-right: 3px solid black;
+  text-align: right;
+  width: 30%;
+  padding: 15px;
 }
 
-.row footer {
+.quote p{
+  padding: 0;
+  margin: 0;
+}
+
+.quote p:nth-child(1){
+  font-size: 17.5px;
+}
+
+.quote p:nth-child(2){
+  color: black;
+  padding-top: 10px;
+  font-style: italic;
+}
+
+.quote p:nth-child(3){
   color: black;
 }
 
-.row h1 {
-  color: white;
+.quote p:nth-child(3)::before{
+  content: "— "
 }
+
+
+
 
 /*----------------------------------------------------*/
 
+#about1Container{
+  background-color: #FEF7E4;
+  height: 336px;
+}
+
+#about1{ 
+  padding: 0 30px;
+  display: flex;
+}
+
+.about1{
+  flex: 0 0 30%;
+  height: 336px;
+}
+
 #updates {
+  width: 100%;
   font-family: "Nehama", serif;
   list-style: none;
   color: black;
   font-size: 16px;
   border-left: 3px solid #761c19;
-  height: 330px;
   margin-top: 15px;
 }
 
@@ -67,9 +105,16 @@
 /*Welcome*/
 
 #welcomeImg {
+  height: 371px;
+  background-image: url('../../assets/img/ukePlayer1.png');
+  background-size: cover;
+  background-position-x: -50px;
   position: relative;
-  right: 50px;
-  bottom: 30px;
+  bottom: 35px;
+}
+
+#welcome{
+  flex-basis: 40%;
 }
 
 #welcome h1 {
@@ -89,7 +134,26 @@
   border-bottom: 1px solid #761c19;
 }
 
+
+
+
 /*-----------------------------------------------------------------*/
+
+#about2Container{
+  background-color: #282828;
+}
+
+#about2{ 
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+}
+
+/*-----------------------------------------------------------------*/
+
+#galleryContainer{
+  width: 60%;
+}
 
 #galleryLink {
   font-family: "Nehama", serif;
@@ -169,14 +233,20 @@
 }
 
 /*-----------------------------------------------------------------*/
+
+#weeklyVidContainer {
+  padding: 20px;
+}
+
 #weeklyVid {
   border-left: 2px solid black;
   border-right: 2px solid black;
   background-color: rgb(148, 84, 46);
-  position: relative;
+  /* position: relative;
   bottom: 15px;
-  right: 10px;
+  right: 10px; */
   height: 440px;
+  padding: 20px;
 }
 
 #vid {
@@ -199,6 +269,7 @@
 #weeklyVid h1 {
   font-family: "Nehama", serif;
   font-size: 40px;
+  margin: 0;
 }
 
 #weeklyVid p {
@@ -215,4 +286,231 @@
 
 #row3 {
   background-color: #282828;
+}
+
+
+
+
+
+@media screen and (max-width: 1440px){
+  #welcome h1, #updates h2{
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1340px){
+  #about1Container{
+    height: 402px;
+    display: flex;
+  }
+
+  #about1{
+    margin: auto;
+  }
+
+  #welcomeImg{
+    height: 300px;
+    bottom: initial;
+    top: 69px;
+  }
+}
+
+@media screen and (max-width: 1118px){
+  #about1{
+    margin: initial;
+  }
+
+  #welcomeImg{
+    top: 102px;
+  }
+}
+
+@media screen and (max-width: 1060px){
+  #quotes {
+    height: 170px;
+  }
+
+  #welcomeImg{
+    display: none;
+  }
+
+  #about1{
+    margin: auto;
+  }
+
+  .about1{
+    flex: 0 0 38%;
+  }
+
+  #welcome{
+    flex-basis: 62%;
+    padding: 0 30px;
+  }
+
+  #updates{
+    padding-left: 0;
+  }
+
+  #about2{
+    flex-direction: column;
+  }
+
+  #galleryContainer {
+    width: 100%;
+  }
+
+  #gallery{
+    height: 47vw;
+  }
+
+  #weeklyVid{
+    height: auto;
+  }
+
+  iframe{
+    width: 83vw;
+    height: 37vw;
+  }
+
+}
+
+
+@media screen and (max-width: 907px){
+  #about1Container{
+    height: 444px;
+  }
+
+  .about1{
+    height: 377px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  #quotes {
+    height: initial;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .quote{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+
+  #about1Container{
+    height: auto;
+  }
+
+  #about1{
+    flex-direction: column;
+    padding: 30px
+  }
+
+  #welcome{
+    padding: 0 4vw;
+  }
+
+  #welcome h1{
+    font-size: 12vw;
+  }
+
+  #welcome p{
+    font-size: 4vw;
+    line-height: 1.5;
+  }
+
+  #updates{
+    border: initial;
+    border-top: 0.3vw solid #761c19;
+    padding: 3vw 4vw 0 4vw;
+    font-size: 3.2vw;
+  }
+
+  #updates h2{
+    font-size: 6vw;
+  }
+}
+
+@media screen and (max-width: 600px){
+
+  #weeklyVidContainer {
+    padding: 0;
+  }
+
+}
+
+@media screen and (max-width: 550px){
+  .quote{
+    width: 80%;
+  }
+
+  #gallery {
+    height: 60vw;
+    padding: 6vw 0px;
+  }
+
+  #galleryLink{
+    right: 0;
+  }
+
+  #galleryLink h4 {
+    font-size: 3.5vw;
+  }
+
+  #weeklyVid {
+    /* width: 100vw; */
+  }
+
+  #weeklyVid h1 {
+    font-size: 8vw;
+    padding: 0 5vw;
+  }
+
+  #weeklyVid p {
+    font-size: 3vw;
+    padding: 0 5vw;
+    width: initial;
+  }
+}
+
+@media screen and (max-width: 480px){
+  #welcome h1{
+    font-size: 14vw;
+  }
+
+  #welcome p{
+    font-size: 6vw;
+  }
+
+  #updates{
+    font-size: 5vw;
+    border-top: 0.5vw solid #761c19;
+  }
+
+  #updates h2{
+    font-size: 10vw;
+  }
+
+  #galleryLink h4 {
+    font-size: 5vw;
+  }
+
+  #weeklyVid h1 {
+    font-size: 10vw;
+  }
+
+  #weeklyVid p {
+    font-size: 5vw;
+  }
+
+  iframe{
+    height: 58vw;
+  }
+}
+
+@media screen and (max-width: 355px){
+  #weeklyVid{
+    padding: 5vw;
+  }
 }

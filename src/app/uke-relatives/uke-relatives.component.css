@@ -1,14 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
 
-#BG{
-    background-color: #e6e6e6;
-}
 
 /*----------------------------------------------------*/
 
 /*Cuatro*/
 
-#cuatroH{
+/* #cuatroH{
     font-family: 'Amatic SC', cursive;
     position: relative;
     color: white;
@@ -71,13 +67,13 @@
 
 #details1{
     height: 245px;
-}
+} */
 
 /*-----------------------------------------------------------------*/
 
 /*Cavaquinho*/
 
-#cavaH{
+/* #cavaH{
     font-family: 'Amatic SC', cursive;
     position: relative;
     color: white;
@@ -139,14 +135,14 @@
 
 #details2{
     height: 245px;
-}
+} */
 
 /*-----------------------------------------------------------------*/
 
 /*Rajao*/
 
 
-#charangoH{
+/* #charangoH{
     font-family: 'Amatic SC', cursive;
     position: relative;
     color: white;
@@ -209,13 +205,13 @@
 
 #details3{
     height: 245px;
-}
+} */
 
 /*-----------------------------------------------------------------*/
 
 /*Timple*/
 
-#timpleH{
+/* #timpleH{
     font-family: 'Amatic SC', cursive;
     position: relative;
     color: white;
@@ -278,9 +274,81 @@
 
 #details4{
     height: 245px;
+} */
+
+
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
+
+#BG{
+    background-color: #e6e6e6;
+    display: flex;
+    flex-direction: column;
 }
 
-/*-----------------------------------------------------------------*/
+.ukeTypeContainer{
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
+    width: 80%;
+    max-width: 1500px;
+}
+
+.ukeHeader{
+    font-family: 'Amatic SC', cursive;
+    position: relative;
+    color: white;
+    top: 20px;
+    font-size: 50px;
+    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+
+.ukeData{
+    display: flex;
+    align-items: flex-start;
+}
+
+.about{
+    height: 220px;
+    padding-top: 20px;
+    padding-left: 40px;
+    text-align: justify;
+    line-height: 2;
+}
+
+.UkeBtns{
+    margin-top: 50px;
+}
+
+.ukeImg{
+    width: 220px;
+    height: 200px;
+    margin: 10px 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+
+
+
+.vids{
+    display: flex;
+    justify-content: space-between;
+    width: 55vw;
+}
+
+iframe{
+    width: 25vw;
+    height: 215px;
+}
+
 
 button{
     margin-left: 5px;
@@ -291,7 +359,19 @@ button:focus, button:link{
     outline: 0;
 }
 
-/*-----------------------------------------------------------------*/
+
+
+.itemscontainer{
+    display: flex;
+    /* width: 50vw !important; */
+}
+
+.items img{
+    width: 220px;
+    height: 220px;
+    padding: 10px 0 10px 10px;
+}
+
 
 
 .divider1{
@@ -314,4 +394,144 @@ button:focus, button:link{
     border-bottom: #761c19 solid 2px;
     margin-top: 10px;
     margin-right: 100px;
+}
+
+
+
+@media only screen and (max-width: 1350px) {
+    .ukeTypeContainer{
+        width: 100%;
+    }
+
+    .itemscontainer{
+        height: 220px;
+    }
+
+    .items img{
+        width: 15vw;
+        height: 15vw;
+    }
+    
+}
+
+@media only screen and (max-width: 1005px) {
+    .dataWithBtns{
+        display: flex;
+        flex-direction: row-reverse;
+        height: 320px;
+    }
+
+    .ukeImg{
+        margin: 10px 15px;
+    }
+
+    button{
+        width: 5em;
+    }
+
+    .about{
+        padding: 0 3vw;
+    }
+
+    .itemscontainer, .vids{
+        width: 65vw !important;
+    }
+
+    .itemscontainer{
+        height: 20vw !important;
+        align-items: flex-end;
+    }
+
+    
+
+    .vids{
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (max-width: 985px) {
+
+    .ukeImgContainer{
+        display: none;
+    }
+
+    .dataWithBtns{
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .UkeBtns{
+        margin-top: 1vw;
+        text-align: center;
+    }
+
+    button{
+        margin: 2vw 1vw;
+    }
+
+    .itemscontainer, .vids, .about{
+        width: 98vw !important;
+    }
+
+    .itemscontainer{
+        height: 220px !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .items img{
+        width: 20vw;
+        height: 20vw;
+    }
+
+    iframe{
+        width: 40vw;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    .ukeHeader{
+        font-size: 10vw;
+    }
+
+    .dataWithBtns{
+        height: 115vw;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .about{
+        height: 100vw;
+        font-size: 3.3vw;
+        padding: 0 7vw;
+    }
+
+    .itemscontainer{
+        width: 93vw !important;
+        /* height: 60vw !important; */
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        margin-top: 5vw; 
+    }
+
+    .items img{
+        width: 40vw;
+        height: 40vw;
+    }
+
+    
+    .vids{
+        flex-direction: column;
+        width: 100% !important;
+    }
+
+    iframe{
+        width: 90vw;
+        height: 43vw;
+        display: block;
+        margin: 2vw auto;
+    }
+
 }

@@ -1,170 +1,45 @@
-<div class="bg-warning" dir="rtl">
+<div class="BG bg-warning" dir="rtl">
 
-  <div class="container" id="img1">
-    <img [@changeSize]='state[0][0]' (click)="adjust(0)" (mouseenter)="mouseEnter('1')" (mouseleave)="mouseLeave('1')"
-      [class.img1H]="imgHover[0]" class="img-circle  center-block" id="img-1" src="assets/img/amanda-palmer.jpg">
-    <div [@changeSize2]='state[0][1]' id="textImg1" (click)="adjust(0)">אמנדה פאלמר</div>
-    <p [@moveText]='state[0][2]' class="text-right pull-left" id="p-1">עושה רושם שאחד ממאפייניו הבולטים של היוקוללה הוא
-      מראהו הבלתי מאיים והמוניטין שיצא לו ככלי פשוט לנגינה באופן יחסי. קל לשכוח זאת כשמתבוננים בוירטואוזים כמו ג'ייק
-      שימאבוקורו או ג'יימס היל. אלו הביאו את הנגינה בכלי הקטן לשיאים חדשים. עם כל הכבוד הראוי לאמנים מסוג זה, טוב שיש
-      את אמנדה פאלמר להזכיר לנו כמה יופי ואמת ניתן למצוא בדברים הפשוטים, וכמה חן יש בנגינה פאנקיסטית מרושלת וחובבנית.
-      <a id="read1" *ngIf="readMore1" (click)="collapseOne.show(); readMore1 = false; readMore1b = true;">קרא עוד</a>
+  <img class="arrow" id="arrowR" src="assets/img/arrowR.png" (click)="moveRight()" alt="Arrow Right">
 
-      <p class="text-right pull-left" id="p-1-continue" #collapseOne="bs-collapse" [collapse]="!isOpen">
-        "היוקוללה מבקש שלא להילקח ברצינות" אומרת פאלמר. לדבריה ההחלטה ללמוד לנגן ביוקוללה באה מתוך המחשבה שזו תהיה דרך
-        מצחיקה לנגן את השיר 'קריפ' של רדיוהד. היא קנתה יוקוללה ב19.95 דולר (הלוואי והיה אפשר להשיג בארץ יוקוללה במחיר
-        כזה!) ולמדה את האקורדים. כדרכם של אמנים אמיתיים החליטה אמנדה להתמסר לחלוטין לאותה גחמה מטופשת. התוצאה – אלבום
-        קאברים יפהפה לרדיוהד שיצא בשנת 2010:
-        <br>
-        <a href="https://amandapalmer.bandcamp.com/album/amanda-palmer-performs-the-popular-hits-of-radiohead-on-her-magical-ukulele"
-          target="_block">Amanda Palmer Performs The Popular Hits Of Radiohead On Her Magical Ukulele</a>
-        <br><br>
+  <div class="artContainer">
 
-        האלבום מציג נגינה מינימליסטית ופשוטה למדי. בכך הוא ממחיש את הלך הרוח הפאנקיסטי של אמנדה שמתומצת בצורה היפה
-        ביותר בשיר "המנון יוקוללה" שאינו מופיע באלבום:
+    <div class="artist" [@scrollImg]='position' *ngFor="let musician of musicians; index as i">
 
-        <br><br>
+      <img (click)="openArtistData(i)" class="artImg" src="{{musician.img}}">
 
-        <iframe width="400" height="315" src="https://www.youtube.com/embed/OZaR_4us6Ec?rel=0" frameborder="0" allow="autoplay; encrypted-media"
-          allowfullscreen></iframe>
+      <h1 class="name">{{musician.name}}</h1>
 
-        <br><br>
-
-        להלן קטע קטן מהשיר הנ"ל:
-
-        <br><br>
-
-        "<a href="https://he.wikipedia.org/wiki/%D7%A1%D7%99%D7%93_%D7%95%D7%99%D7%A9%D7%A1" target="_block">סיד וישס</a>
-        ניגן על פנדר בס ארבעה מיתרים והוא לא היה מסוגל לשיר
-        <br>
-        וכולם שנאו אותו חוץ מאלה שאהבו אותו
-        <br>
-        ליוקוללה יש ארבעה מיתרים אבל סיד לא ניגן ביוקוללה
-        <br>
-        הוא השתמש בהרואין וכנראה הרג את החברה שלו ננסי ספונג'ן
-        <br><br>
-        אילו רק היה סיד מנגן ביוקוללה אולי הוא היה יכול להיות שמח
-        <br>
-        אולי הוא לא היה מסיים באופן כה עצוב
-        <br>
-        אולי הוא לא היה עושה כל כך הרבה הרואין
-        <br>
-        אולי הוא היה יושב לו ופשוט שר שירים נחמדים לחברה שלו"
-
-        <br><br>
-        <a id="read1" *ngIf="readMore1b" (click)="collapseOne.hide(); readMore1 = true; readMore1b = false;">ראיתי
-          מספיק!</a>
-      </p>
-  </div>
-
-  <hr>
-
-  <div class="container" id="img2">
-    <img [@changeSize]='state[1][0]' (click)="adjust(1)" (mouseenter)="mouseEnter('2')" (mouseleave)="mouseLeave('2')"
-      [class.img2H]="imgHover[1]" class="img-circle  center-block" id="img-2" src="assets/img/jake-shimabukuro2.jpg">
-    <div [@changeSize2]='state[1][1]' id="textImg2" (click)="adjust(1)">ג'ייק שימאבוקורו</div>
-    <p [@moveText]='state[1][2]' class="text-right pull-left" id="p-2">למרבית כלי הנגינה יש אייקון מוזיקלי ששמו הוא סמל
-      למימוש יוצא דופן של הפוטנציאל הגלום בהם. לכינור יש את פגניני, לגיטרה את ג'ימי הנדריקס, לבס יש את פלי מהרד הוט
-      צ'ילי פפרז ואילו ליוקוללה יש את ג'ייק שימאבוקורו. שימאבוקורו עשה לעצמו שם כוירטואוז יוקוללה הרבה בזכות סרטון
-      יוטיוב שלו מ-2006 בו הוא מנגן גרסה יפה להפליא של השיר While my guitar gently whips: <a id="read2" *ngIf="readMore2"
-        (click)="collapseTwo.show(); readMore2 = false; readMore2b = true;">קרא עוד</a>
-      <p class="text-right pull-left" id="p-2-continue" #collapseTwo="bs-collapse" [collapse]="!isOpen">
-        <br><br>
-        <iframe width="400" height="315" src="https://www.youtube.com/embed/puSkP3uym5k?rel=0" frameborder="0" allow="autoplay; encrypted-media"
-          allowfullscreen></iframe>
-        <br><br>
-        שימאבוקורו אוהב לומר שאחד הדברים שהוא הכי אוהב ביוקוללה זה שהוא אינו כלי שמעורר יותר מדי ציפייה בקהל השומעים.
-        החזות התמימה של הכלי שעליו הוא מנגן מאפשרת לשימאבוקורו להפתיע את קהל המאזינים בנגינה וירטואוזית יוצאת דופן. כך
-        הוא עשה בהופעה בTED ב2010 כאשר בחר לבצע על היוקוללה את השיר Bohemian Rhapsody של קווין:
-        <br><br>
-        <iframe width="400" height="315" src="https://www.youtube.com/embed/3diSiwLBSOE?rel=0" frameborder="0" allow="autoplay; encrypted-media"
-          allowfullscreen></iframe>
-        <br><br>
-        שימאבוקורו, שהחל לנגן ביוקוללה בגיל 4, הוציא עד כה בקריירת הסולו שלו 13 אלבומי יוקוללה. נראה שהוא אחד מנגני
-        היוקוללה העסוקים ביותר בעולם. הוא ללא ספק אחד מהנגנים הווירטואוזים ביותר בעולם אם לא הווירטואוז שבהם. בנוגע
-        להיותו נגן "טוב", זה כמובן כבר עניין של טעם. באופן אישי אני מתרשם ממנו מאוד אבל יש משהו באופי ההגשה ובאופן שבו
-        הוא מדבר שמשדר ווייב של שחקנית ברידג' חובבת בת 83 מגבעתיים. הוא נחמד וחייכן מאוד מאוד מאוד. נורא נורא נוראאאא
-        נחמד. אולי יש כאלה שאוהבים את זה, לי זה מרגיש כמו יותר מדי ממתקים בטיול שנתי, זה עושה לי קצת איכסה. ושאני לא
-        אתחיל לדבר על מוזיקאים שחושבים שכובע פדורה זה מגניב. בקיצור, אף על פי שאני לא מת על התגית הזאת, לפעמים אין
-        ברירה – שימאבוקורו סאחי רצח. אבל אם נניח את ההסתייגויות הקטנוניות האלו בצד, מדובר בנגן מדהים.
-
-        <br><br>
-        <a id="read1" *ngIf="readMore2b" (click)="collapseTwo.hide(); readMore2 = true; readMore2b = false;">ראיתי
-          מספיק!</a>
-      </p>
-
+    </div>
 
   </div>
 
-  <hr>
+  <img class="arrow" id="arrowL" src="assets/img/arrowL.png" (click)="moveLeft()" alt="Arrow left">
 
-  <div class="container" id="img3">
-    <img [@changeSize]='state[2][0]' (click)="adjust(2)" (mouseenter)="mouseEnter('3')" (mouseleave)="mouseLeave('3')"
-      [class.img3H]="imgHover[2]" class="img-circle  center-block" id="img-3" src="assets/img/eddie-vedder1.jpg">
-    <div [@changeSize2]='state[2][1]' id="textImg3" (click)="adjust(2)">אדי ודר</div>
-    <p [@moveText]='state[2][2]' class="text-right pull-left" id="p-3">נסיך סצנת הגראנג' ואחד הסולנים המעטים מאותה
-      תקופה שטרם מצאו את מותם בנסיבות טרגיות (55555 מלח מים מלח מים) הוציא בשנת 2011 אלבום יוקוללה שלם הנקרא, לא
-      תאמינו, חכו לזה, הנה זה בא –Ukulele Songs. אדי ודר החל לנגן בכלי באמצע שנות ה-90. היוקוללה שימש עבורו כאמצעי
-      לכתיבת שירים וכבן לוויה נאמן שעזר לו להפיג את תחושת הבדידות בתקופות מסוימות. לעיתים היה עולה עם הכלי להדרן
-      בהופעות. לטענתו היוקוללה מעודד שירה בצוותא, "זה כלי כזה קטן שאנשים כאילו אומרים 'בואו נעזור לו!'". <a id="read3"
-        *ngIf="readMore3" (click)="collapseThree.show(); readMore3 = false; readMore3b = true;">קרא עוד</a>
-      <p class="text-right pull-left" id="p-3-continue" #collapseThree="bs-collapse" [collapse]="!isOpen">
+  <div id="aboutContainer" *ngIf="musician.visibility">
 
-        אדי אומר שהצליל השמח של הכלי מאזן את הנטייה שלו לכתוב שירים עצובים ומונע מהתוצאה הסופית להישמע כמו 'מוזיקת
-        התאבדות'. האלבום Ukulele Songs בהחלט לא נשמע כמו מוזיקת התאבדות. הוא מכיל ברובו שירים מקוריים, שיר אחד של פרל
-        ג'אם (Can’t Keep) וכמה קאברים.
-        <br><br>
-        אדי בהופעה עם השיר Without You:
+    <div id="about" [@artistData]='artData'>
+
+      <div id="xBtn" (click)="closeArtistData()">
+        <div class="line" id="line1"></div>
+        <div class="line" id="line2"></div>
+      </div>
+
+      <img class="aboutImg" src="{{musician.img}}">
+
+      <h1 class="aboutName">{{musician.name}}</h1>
+
+      <p class="abstract">
+        <span [innerHTML]="musician.abstract"></span>
         <br>
-        <iframe width="400" height="315" src="https://www.youtube.com/embed/5g8PEp47iBg?rel=0" frameborder="0" allow="autoplay; encrypted-media"
-          allowfullscreen></iframe>
-        <br><br>
-        אדי מנגן קאבר יחד עם הזמרת Regin Chassange. לא הביצוע המוצלח ביותר, אבל שווה לראות ולו בגלל הייבוש הסופר-מביך
-        של אדי ב-0:13:
+        <a class="toggleText" (click)="showText()" *ngIf="showTextLink">
+          קרא עוד >></a> </p>
+      <br>
+      <p class="fullText" [@artistAbout]='showAboutText' *ngIf="fullText">
+        <span [innerHTML]="musician.about.text"></span>
         <br>
-        <iframe width="400" height="315" src="https://www.youtube.com/embed/ZFfewkiNjSA" frameborder="0" allow="autoplay; encrypted-media"
-          allowfullscreen></iframe>
-        <br><br>
-        והאלבום Ukulele Songs:
-        <br>
-        <iframe width="400" height="315" src="https://www.youtube.com/embed/aDDB4Vyk5ZQ" frameborder="0" allow="autoplay; encrypted-media"
-          allowfullscreen></iframe>
-
-        <br><br>
-        <a id="read3" *ngIf="readMore3b" (click)="collapseThree.hide(); readMore3 = true; readMore3b = false;">ראיתי
-          מספיק!</a>
-      </p>
-  </div>
-
-  <hr>
-
-  <div class="container" id="img4">
-    <img [@changeSize]='state[3][0]' (click)="adjust(3)" (mouseenter)="mouseEnter('4')" (mouseleave)="mouseLeave('4')"
-      [class.img4H]="imgHover[3]" class="img-circle  center-block" id="img-4" src="assets/img/james-hill1.jpg">
-    <div [@changeSize2]='state[3][1]' id="textImg4" (click)="adjust(3)">ג'יימס היל</div>
-    <p [@moveText]='state[3][2]' class="text-right pull-left" id="p-4">עבור ג'יימס היל היוקוללה אינו סתם גיטרת צעצוע
-      קטנה עם ארבעה מיתרים. היוקוללי הוא גם בס, פסנתר ומערכת תופים. בהתאם לכך, הפוטנציאל המוזיקלי של היוקוללה הוא
-      אינסופי. היל מוכיח שהכלי הקטן הזה מסוגל להיות הרבה יותר מסתם עוד כלי ליווי בעל צליל מתקתק. הוא יכול להיות מכונת
-      גרוב חסרת מעצורים, כפי שניתן לראות בביצוע הזה לBillie Jean של מייקל ג'קסון: <a id="read4" *ngIf="readMore4"
-        (click)="collapseFore.show(); readMore4 = false; readMore4b = true;">קרא עוד</a>
-      <p class="text-right pull-left" id="p-4-continue" #collapseFore="bs-collapse" [collapse]="!isOpen">
-        <iframe width="400" height="315" src="https://www.youtube.com/embed/u778gSi94N4" frameborder="0" allow="autoplay; encrypted-media"
-          allowfullscreen></iframe>
-        <br><br>
-        עם תספורת מוזרה, משקפיים מהניינטיז, אזרחות קנדית והמון כישרון נראה שלהיל יש את כל הנתונים להיות אליל יוקוללה,
-        והוא אכן ממלא את התפקיד הזה בהצלחה מרובה. היל הוא התוצר החינוכי של תכנית מיוחדת ללימודי יוקוללה בבתי ספר שהגה
-        אדם בשם ג'ון דוויין. בעקבות התכנית הזו הוקם ה- Langley Ukulele Ensemble בו לקח היל חלק במשך 10 שנים לפני שפתח
-        בקריירת סולו עצמאית. בהמשך היל ודוויין פעולה על מנת ליצור תכנית חדשה ללימוד יוקוללה.
-        <br><br>
-        היל נשוי לנגנית הצ'לו אן ג'נל, איתה הוא גם מופיע. הוא הוציא עד כה 7 אלבומים ומספר ספרי הדרכה על הכלי. בקטע הבא
-        ניתן לראות את היל עם תספורת חדשה ומשקפיים עדכניות אך למרבה המזל הגרוב נשאר קטלני כשהיה:
-        <br>
-        <iframe width="400" height="315" src="https://www.youtube.com/embed/0wzsE67O5tE" frameborder="0" allow="autoplay; encrypted-media"
-          allowfullscreen></iframe>
-
-        <br><br>
-        <a id="read4" *ngIf="readMore4b" (click)="collapseFore.hide(); readMore4 = true; readMore4b = false;">ראיתי
-          מספיק!</a>
-      </p>
+        <a class="toggleText" (click)="hideText()">
+          << צמצם</a> </p> <br>
+    </div>
   </div>
 </div>

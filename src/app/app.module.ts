@@ -4,19 +4,19 @@ import { FormsModule } from '@angular/forms';
 
 import { AlertModule } from 'ngx-bootstrap';
 
-import { AppRoutingModule, routingComponents} from './app-routing.module';
+import { AppRoutingModule, routingComponents } from './app-routing.module';
 
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 
 import { CollapseModule } from 'ngx-bootstrap/collapse';
 
-import {Ng2CarouselamosModule} from 'ng2-carouselamos';
+import { Ng2CarouselamosModule } from 'ng2-carouselamos';
 
 import { Angular2ImageGalleryModule } from 'angular2-image-gallery';
 
 import { LocalStorageModule } from 'angular-2-local-storage';
 
-import { Title }  from '@angular/platform-browser';
+import { Title } from '@angular/platform-browser';
 
 
 import { AppComponent } from './app.component';
@@ -31,6 +31,8 @@ import { UkeRelativesComponent } from './uke-relatives/uke-relatives.component';
 import { UkeTypesComponent } from './uke-types/uke-types.component';
 import { TunerComponent } from './tuner/tuner.component';
 
+import { SafePipe } from './uke-relatives/uke-relatives.component';
+
 
 
 @NgModule({
@@ -44,7 +46,8 @@ import { TunerComponent } from './tuner/tuner.component';
     GalleryComponent,
     LinksComponent,
     UkeRelativesComponent,
-    UkeTypesComponent
+    UkeTypesComponent,
+    SafePipe
   ],
   imports: [
     BrowserAnimationsModule,
@@ -66,4 +69,4 @@ import { TunerComponent } from './tuner/tuner.component';
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }

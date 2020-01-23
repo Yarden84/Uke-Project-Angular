@@ -5,21 +5,62 @@
 
 /*----------------------------------------------------*/
 
-#about{
-    padding: 50px 100px;
+.aboutContainer{
+    display: flex;
+}
+
+.about{
+    width: 80%;
+    padding: 50px 0;
+    margin: auto;
 }
 
 
-#about h1, #about h3{
+.about h1, .about h3{
     font-family: 'Nehama', serif;
 }
 
-#about p{
-    padding-right: 20px;
-    width: 800px;
+.about p{
+    margin-left: auto;
+    width: 80%;
     text-align: justify;
+    font-size: 18px;
 }
 
-a{
+.about a{
     color: inherit;
+}
+
+.aboutVids{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.aboutVids iframe{
+    width: 40%;
+}
+
+@media screen and (max-width: 1300px){
+    .aboutVids{
+        flex-direction: column;
+    } 
+
+    .aboutVids iframe{
+        width: 70%;
+        margin-bottom: 5vw;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .aboutVids iframe{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .aboutVids iframe{
+        width: 100%;
+        height: 45vw;
+    }
 }

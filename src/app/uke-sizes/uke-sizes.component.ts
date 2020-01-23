@@ -14,7 +14,7 @@ import { Title } from '@angular/platform-browser';
         transform: 'translateX(0)'
       })),
       state('overText', style({
-        transform: 'translateX(-60px)'
+        transform: 'translateX(-5vw)'
       })),
       transition('overUke <=> overText', animate('400ms ease-in')),
     ]),
@@ -23,7 +23,7 @@ import { Title } from '@angular/platform-browser';
         transform: 'translateX(0)'
       })),
       state('clicked', style({
-        transform: 'translateX(70px)'
+        transform: 'translateX(6em)'
       })),
       transition('default <=> clicked', animate('400ms ease-in')),
     ]),
@@ -47,41 +47,41 @@ export class UkeSizesComponent implements OnInit {
   constructor(private titleService: Title) { }
 
   ngOnInit() {
-    this.setTitle( 'Jewkulele - גדלי היוקוללה' );
+    this.setTitle('Jewkulele - גדלי היוקוללה');
   }
 
-  setTitle( newTitle: string) {
-    this.titleService.setTitle( newTitle );
+  setTitle(newTitle: string) {
+    this.titleService.setTitle(newTitle);
   }
 
-  showData(a){
+  showData(a) {
     var x = +a;
-    this.state[x][0] = (this.state[x][0] === 'overUke' ? 'overText': 'overText');
-    this.state[x][1] = (this.state[x][1] === 'default' ? 'clicked': 'clicked');
-    this.state[x][2] = (this.state[x][2] === 'transparent' ? 'shown': 'shown');
+    this.state[x][0] = (this.state[x][0] === 'overUke' ? 'overText' : 'overText');
+    this.state[x][1] = (this.state[x][1] === 'default' ? 'clicked' : 'clicked');
+    this.state[x][2] = (this.state[x][2] === 'transparent' ? 'shown' : 'shown');
     this.data[a][1] = true;
 
-    for(let i=0; i<=4; i++){
-      if (i != x){
-        this.state[i][0] = (this.state[i][0] === 'overText' ? 'overUke': 'overUke');
-        this.state[i][1] = (this.state[i][1] === 'clicked' ? 'default': 'default');
-        this.state[i][2] = (this.state[i][2] === 'shown' ? 'transparent': 'transparent');
-        this.data[i][1] = false; 
+    for (let i = 0; i <= 4; i++) {
+      if (i != x) {
+        this.state[i][0] = (this.state[i][0] === 'overText' ? 'overUke' : 'overUke');
+        this.state[i][1] = (this.state[i][1] === 'clicked' ? 'default' : 'default');
+        this.state[i][2] = (this.state[i][2] === 'shown' ? 'transparent' : 'transparent');
+        this.data[i][1] = false;
         this.mouseLeave(i);
-      } 
-    }  
+      }
+    }
   }
 
-  mouseEnter(a){
-    if (!this.data[a][1]){
-      let img = document.getElementById(this.data[a][0] +'Img');
+  mouseEnter(a) {
+    if (!this.data[a][1]) {
+      let img = document.getElementById(this.data[a][0] + 'Img');
       img.style.opacity = '1';
     }
   }
 
-  mouseLeave(a){
-    if (!this.data[a][1]){
-      let img = document.getElementById(this.data[a][0] +'Img');
+  mouseLeave(a) {
+    if (!this.data[a][1]) {
+      let img = document.getElementById(this.data[a][0] + 'Img');
       img.style.opacity = '0.7';
     }
   }
