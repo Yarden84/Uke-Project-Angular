@@ -261,6 +261,10 @@ iframe{
 		width: 22px;
 	}
 
+	.name{
+		font-size: 2em;
+	}
+
 }
 
 @media screen and (max-width: 400px){
