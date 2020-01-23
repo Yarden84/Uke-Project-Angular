@@ -231,22 +231,22 @@
 	}
 
 	#btnG{
-		left: 43.7vw;
+		left: 49%;
 		top: 24.8vw;
 	}
 	
 	#btnC{
-		left: 21.4vw;
+		left: 25%;
 		top: 24.8vw;
 	}
 	
 	#btnE{
-		left: 21.4vw;
+		left: 25%;
 		top: 8vw;
 	}
 	
 	#btnA{
-		left: 43.7vw;
+		left: 49%;
     	top: 8vw;
 	}
 }
