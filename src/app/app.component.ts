@@ -46,11 +46,11 @@ export class AppComponent {
   toggleNav() {
     if (this.navbar) {
       this.state = 'navShown';
-      document.getElementById('navbar').style.zIndex = "-1";
+      // document.getElementById('navbar').style.zIndex = "-1";
     }
     else {
       this.state = 'navHidden';
-      setTimeout(function () { document.getElementById('navbar').style.zIndex = "1"; }, 400);
+      // setTimeout(function () { document.getElementById('navbar').style.zIndex = "1"; }, 400);
 
     }
     this.navbar = !this.navbar;
