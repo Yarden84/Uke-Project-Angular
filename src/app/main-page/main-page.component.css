@@ -343,6 +343,7 @@
 
   .about1{
     flex: 0 0 38%;
+    height: 100%;
   }
 
   #welcome{
@@ -384,7 +385,7 @@
   }
 
   .about1{
-    height: 377px;
+    /* height: 377px; */
   }
 }
 
