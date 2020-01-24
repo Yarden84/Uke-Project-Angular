@@ -213,7 +213,7 @@ footer{
   }
 
   .navItem{
-    display: flex;
+    display: flex !important;
     width: 100%;
     text-align: center;
   }
