@@ -3,6 +3,9 @@
   src: url("../../assets/fonts/nehama/Nehama.ttf");
 }
 
+#mainContainer{
+  min-height: 80vh;
+}
 
 
 #quotes {
