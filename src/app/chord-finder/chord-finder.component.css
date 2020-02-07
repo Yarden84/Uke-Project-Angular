@@ -163,7 +163,7 @@
 
 @media screen and (max-width: 960px){
 	.chordFinder{
-		height: 80vh;
+		min-height: 80vh;
 	}
 }
 
