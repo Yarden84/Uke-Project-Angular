@@ -37,7 +37,6 @@ export class UkeTypesComponent implements OnInit {
       סופרן או היוקוללה קונצרט. הצליל שהבנג'וללי מפיק דומה מאוד לצליל שמפיק הבנג'ו בשילוב עם
       הסאונד
       הדינמי של פריטה על יוקוללה.</strong></p>
-<br>
       <a href="https://en.wikipedia.org/wiki/George_Formby" target="_block">ג'ורג' פורמבי</a>
       היה אחד מהפרפורמרים המזוהים ביותר עם הכלי והרבה לשלב אותו בהופעותיו. אמנים נוספים שגילו
       עניין בכלי הם
