@@ -59,7 +59,7 @@
 }
 
 .Jumbatron h1 {
-  font-size: 47px;
+  font-size: 55px;
   color: white;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
   margin-bottom: 0;
@@ -213,7 +213,7 @@ footer{
   }
 
   .navItem{
-    display: flex !important;
+    display: flex;
     width: 100%;
     text-align: center;
   }
@@ -272,7 +272,7 @@ footer{
 @media only screen and (max-width: 415px) {
   
   .Jumbatron h1 {
-    font-size: 12vw;
+    font-size: 15vw;
   }
 
 }
